@@ -25,3 +25,9 @@ GadKille provides a single platform to explore forts and get answers through an 
 
 ## Technology
 Python, Generative AI, Wikipedia MediaWiki API, JSON, RAG and Streamlit.
+## How to Run GadKille
+
+### 1. Activate virtual environment
+
+```powershell
+.\.venv\Scripts\Activate.ps1

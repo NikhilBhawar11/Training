@@ -161,34 +161,3 @@ forts = [
         "source_url": "https://en.wikipedia.org/wiki/Galna_Fort"
     }
 ]
-# Print total records
-print("\nTotal forts:", len(forts))
-
-# Print all forts
-print("\n========== ALL FORTS ==========")
-
-for fort in forts:
-    print(fort["fort_name"], "-", fort["district"])
-
-
-# Search by fort name or district
-keyword = input("\nEnter fort name or district: ").lower()
-
-print("\n========== SEARCH RESULTS ==========")
-
-for fort in forts:
-    if keyword in fort["fort_name"].lower() or keyword in fort["district"].lower():
-        print(fort["fort_name"], "-", fort["district"])
-
-
-# Count forts by district
-district_count = {}
-
-for fort in forts:
-    district = fort["district"]
-    district_count[district] = district_count.get(district, 0) + 1
-
-print("\n========== DISTRICT COUNT ==========")
-
-for district, count in district_count.items():
-    print(district, ":", count)
