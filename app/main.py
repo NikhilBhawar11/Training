@@ -4,6 +4,9 @@ from app.smart_search import smart_search
 from pydantic import BaseModel
 from pathlib import Path
 import json
+from functools import lru_cache
+from fastapi import Query
+from app.semantic_search import SemanticSearch
 
 from app.llm import generate_response
 app = FastAPI(title="GadKille API")
@@ -97,3 +100,24 @@ def chat(request: ChatRequest):
             status_code=502,
             detail="LLM returned an invalid JSON response."
         )
+
+
+@lru_cache
+def get_semantic_search():
+    return SemanticSearch()
+
+
+@app.get("/search/semantic")
+def semantic_search(
+    q: str = Query(..., min_length=1),
+    top_k: int = Query(3, ge=1, le=20)
+):
+    search_engine = get_semantic_search()
+
+    results = search_engine.search(q, top_k=top_k)
+
+    return {
+        "query": q,
+        "total_results": len(results),
+        "results": results
+    }

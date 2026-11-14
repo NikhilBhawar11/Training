@@ -1,18 +1,15 @@
 
 import json
-import numpy as np
-
 from pathlib import Path
+
 from app.chunking import create_document_chunks
-from app.embed import EmbeddingModel
+from app.vectorstore import VectorStore
 
 
 class SemanticSearch:
 
     def __init__(self):
-        self.embedder = EmbeddingModel()
-        self.chunks = []
-        self.embeddings = None
+        self.vector_store = VectorStore()
 
     def load_documents(self):
         """Load GadKille records."""
@@ -35,62 +32,43 @@ class SemanticSearch:
                 "text": text,
                 "title": record.get("fort_name", "Unknown Fort"),
                 "source": record.get("source_url", "records.json"),
-                "page": 1
+                "page": "not_available"
             })
 
         return documents
 
     def build_index(self):
-        """Chunk documents and generate embeddings."""
+        """Chunk documents and store them in ChromaDB."""
 
         documents = self.load_documents()
 
-        self.chunks = create_document_chunks(documents)
+        chunks = create_document_chunks(documents)
 
-        texts = [chunk["text"] for chunk in self.chunks]
+        self.vector_store.index_chunks(chunks)
 
-        self.embeddings = np.array(
-            self.embedder.generate_embeddings(texts)
-        )
-
-        print("Total chunks:", len(self.chunks))
-        print("Embedding shape:", self.embeddings.shape)
+        print("Total documents:", len(documents))
+        print("Total chunks:", len(chunks))
+        print("Chunks in ChromaDB:", self.vector_store.count())
 
     def search(self, query, top_k=3):
-        """Find the most relevant chunks."""
+        """Search for relevant chunks using ChromaDB."""
 
-        if self.embeddings is None:
+        if self.vector_store.count() == 0:
             self.build_index()
 
-        query_embedding = np.array(
-            self.embedder.generate_embedding(query)
-        )
-
-        scores = np.dot(self.embeddings, query_embedding)
-
-        top_indices = np.argsort(scores)[::-1][:top_k]
-
-        results = []
-
-        for index in top_indices:
-            results.append({
-                "score": float(scores[index]),
-                "text": self.chunks[index]["text"],
-                "metadata": self.chunks[index]["metadata"]
-            })
-
-        return results
+        return self.vector_store.search(query, top_k)
 
 
 if __name__ == "__main__":
 
     search_engine = SemanticSearch()
 
-    search_engine.build_index()
+    if search_engine.vector_store.count() == 0:
+        search_engine.build_index()
 
     query = "Which forts are located in Ahmednagar?"
 
-    results = search_engine.search(query)
+    results = search_engine.search(query, top_k=3)
 
     print("\nQuery:", query)
 
