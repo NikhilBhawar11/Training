@@ -1,9 +1,15 @@
 from fastapi import FastAPI, HTTPException
 from app.records import load_records, get_by_id
 from app.smart_search import smart_search
+from pydantic import BaseModel
+from pathlib import Path
+import json
 
+from app.llm import generate_response
 app = FastAPI(title="GadKille API")
 
+class ChatRequest(BaseModel):
+    question: str
 
 @app.get("/health")
 def health():
@@ -25,6 +31,31 @@ def get_record(record_id: int):
 
     return record
 
+@app.post("/chat")
+def chat(request: ChatRequest):
+
+    # Load system prompt
+    prompt_path = Path("prompts/system.txt")
+
+    system_prompt = prompt_path.read_text(encoding="utf-8")
+
+    # Generate LLM response
+    response = generate_response(
+        prompt=request.question,
+        system_prompt=system_prompt
+    )
+
+    # Return structured JSON
+    return {
+        "answer": response,
+        "confidence": "Not independently verified",
+        "follow_up": "Would you like to know about the fort's history or trekking details?"
+    }
+
+class ChatResponse(BaseModel):
+    answer: str
+    confidence: str
+    follow_up: str
 
 @app.get("/search")
 def search_records(q: str):
@@ -38,3 +69,31 @@ def ask_question(question: str):
         "question": question,
         "message": "Question received. AI answering will be added later."
     }
+@app.post("/chat", response_model=ChatResponse)
+def chat(request: ChatRequest):
+
+    BASE_DIR = Path(__file__).resolve().parent.parent
+
+    prompt_path = BASE_DIR / "prompts" / "system.txt"
+
+    system_prompt = prompt_path.read_text(encoding="utf-8")
+
+    response = generate_response(
+        prompt=request.question,
+        system_prompt=system_prompt
+    )
+
+    try:
+        result = json.loads(response)
+
+        return ChatResponse(
+            answer=result["answer"],
+            confidence=result["confidence"],
+            follow_up=result["follow_up"]
+        )
+
+    except (json.JSONDecodeError, KeyError, TypeError):
+        raise HTTPException(
+            status_code=502,
+            detail="LLM returned an invalid JSON response."
+        )
