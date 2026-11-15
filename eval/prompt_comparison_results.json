@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Tell me about Raigad Fort.",
+        "version_a": "Raigad Fort is a historic fort situated in Raigad district, Maharashtra.  \n\nSource: https://en.wikipedia.org/wiki/Raigad_fort",
+        "version_b": "{\n  \"answer\": \"Raigad Fort is located in Raigad district, Maharashtra.\",\n  \"confidence\": \"high\",\n  \"follow_up\": \"Would you like information on its historical significance, trekking routes, or nearby base villages?\"\n}"
+    },
+    {
+        "question": "Which district is Sinhagad Fort located in?",
+        "version_a": "Sinhagad Fort is located in **Pune district**.",
+        "version_b": "{\n  \"answer\": \"Sinhagad Fort is located in Pune district.\",\n  \"confidence\": \"high\",\n  \"follow_up\": \"Would you like more details about Sinhagad Fort's history, trekking routes, or nearby attractions?\"\n}"
+    },
+    {
+        "question": "What is the historical importance of Shivneri Fort?",
+        "version_a": "Based on the retrieved documents, Shivneri Fort is mentioned only by its name and its location in Pune district. The provided context does not contain any details about its historical importance. For a full history, you may want to consult the full Wikipedia article linked in the source.",
+        "version_b": "{\n  \"answer\": \"The retrieved context only provides the name Shivneri Fort and its district (Pune) but does not contain any details about its historical importance.\",\n  \"confidence\": \"high\",\n  \"follow_up\": \"Would you like me to provide a summary of Shivneri Fort's historical significance from other reliable sources?\"\n}"
+    },
+    {
+        "question": "Where is Harishchandragad Fort located?",
+        "version_a": "Harishchandragad Fort is located in the Ahmednagar district of Maharashtra.",
+        "version_b": "{\n  \"answer\": \"Harishchandragad Fort is located in Ahmednagar district, Maharashtra.\",\n  \"confidence\": \"high\",\n  \"follow_up\": \"Would you like information about the trekking routes, difficulty level, or nearby base villages for Harishchandragad Fort?\"\n}"
+    },
+    {
+        "question": "Explain the trekking difficulty of Rajgad Fort.",
+        "version_a": "The retrieved documents only list the name **Rajgad Fort** and its location in Pune district; they do not provide any information about the trekking difficulty of the fort.",
+        "version_b": "{\n  \"answer\": \"The retrieved context only provides the name and district of Rajgad Fort (Pune) and does not contain any information about its trekking difficulty. Therefore, I cannot provide the trekking difficulty based on the given documents.\",\n  \"confidence\": \"low\",\n  \"follow_up\": \"Would you like me to provide general information about Rajgad Fort's trekking routes and difficulty from other reliable sources?\"\n}"
+    },
+    {
+        "question": "Which village is the base village for Torna Fort?",
+        "version_a": "The retrieved documents only list the name of Torna Fort and its district (Pune); they do not mention the base village for the fort. I don’t have that information from the provided context.",
+        "version_b": "{\n  \"answer\": \"The retrieved context does not provide the name of the base village for Torna Fort.\",\n  \"confidence\": \"low\",\n  \"follow_up\": \"Would you like me to look up the base village from other reliable sources or provide information about nearby villages and trekking routes?\"\n}"
+    },
+    {
+        "question": "What is the height of Pratapgad Fort?",
+        "version_a": "I’m sorry, but the retrieved documents only mention the name and district of Pratapgad Fort; they do not provide its height.",
+        "version_b": "{\n  \"answer\": \"The retrieved context does not contain information about the height of Pratapgad Fort.\",\n  \"confidence\": \"high\",\n  \"follow_up\": \"Would you like to know other details about Pratapgad Fort, such as its historical significance or trekking difficulty?\"\n}"
+    },
+    {
+        "question": "Recommend forts in Pune district.",
+        "version_a": "Here are three forts located in Pune district:\n\n1. **Purandar Fort** – Pune district  \n2. **Bhorgiri Fort** – Pune district  \n3. **Torna Fort** – Pune district  \n\nAll three are in the Pune region and are popular spots for history lovers and trekkers.",
+        "version_b": "{\n  \"answer\": \"Based on the provided documents, the forts located in Pune district are:\\n1. Purandar Fort\\n2. Bhorgiri Fort\\n3. Torna Fort\\nThese are the forts you can consider exploring in Pune district.\",\n  \"confidence\": \"high\",\n  \"follow_up\": \"Would you like details on the historical significance, trekking difficulty, or nearby base villages for any of these forts?\"\n}"
+    },
+    {
+        "question": "Which forts are suitable for beginner trekkers?",
+        "version_a": "Based on the documents you provided, the forts listed are:\n\n- Chauler Fort (Nashik district)  \n- Ankai Fort (Nashik district)  \n- Kulang Fort (Nashik district)\n\nThe retrieved information does not include details about the trekking difficulty or suitability for beginners. Therefore, I can’t tell which of these forts are appropriate for beginner trekkers from the given context. If you have more specific information about trail conditions or difficulty levels, I can help you compare them.",
+        "version_b": "{\n  \"answer\": \"The provided documents only list three forts in Nashik district—Chauler Fort, Ankai Fort, and Kulang Fort—but they do not contain any information about trekking difficulty or suitability for beginner trekkers. Therefore, I cannot determine which of these forts are appropriate for beginners based on the current data.\",\n  \"confidence\": \"low\",\n  \"follow_up\": \"Would you like me to look up additional information on the trekking difficulty of these forts or suggest other forts known to be beginner-friendly?\"\n}"
+    },
+    {
+        "question": "What is the current population of Raigad Fort?",
+        "version_a": "The retrieved documents only give the name of Raigad Fort and its district (Raigad); they do not contain any information about a current population. Therefore, I don’t have a population figure for Raigad Fort.",
+        "version_b": "{\n  \"answer\": \"The retrieved context does not contain any information about the current population of Raigad Fort. Forts typically do not have a resident population, as they are historic structures rather than inhabited settlements.\",\n  \"confidence\": \"high\",\n  \"follow_up\": \"Would you like information about the historical significance, location, or trekking details of Raigad Fort instead?\"\n}"
+    }
+]

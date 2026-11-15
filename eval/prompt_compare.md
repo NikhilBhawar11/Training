@@ -50,34 +50,28 @@ Question 10 is intentionally outside the available GadKille dataset.
 
 | Question | Version A | Version B | Better Version |
 |---|---|---|---|
-| Q1 | To be tested | To be tested | Pending |
-| Q2 | To be tested | To be tested | Pending |
-| Q3 | To be tested | To be tested | Pending |
-| Q4 | To be tested | To be tested | Pending |
-| Q5 | To be tested | To be tested | Pending |
-| Q6 | To be tested | To be tested | Pending |
-| Q7 | To be tested | To be tested | Pending |
-| Q8 | To be tested | To be tested | Pending |
-| Q9 | To be tested | To be tested | Pending |
-| Q10 | To be tested | To be tested | Pending |
+| Q1 | Correct location; no JSON format | Correct location; valid JSON | B |
+| Q2 | Correct district; plain text | Correct district; valid JSON | B |
+| Q3 | Correctly identifies missing historical information | Correctly identifies missing information and provides follow-up | B |
+| Q4 | Correctly identifies Ahmednagar district | Correctly identifies Ahmednagar district in JSON | B |
+| Q5 | Correctly states trekking difficulty is unavailable | Clearly explains missing information and gives follow-up | B |
+| Q6 | Correctly identifies missing base village | Correctly identifies missing base village and gives follow-up | B |
+| Q7 | Correctly identifies missing height | Correctly identifies missing height in JSON | B |
+| Q8 | Provides three Pune forts with extra unsupported description | Provides three forts in a structured response | B |
+| Q9 | Correctly states beginner suitability cannot be determined | Clearly explains missing difficulty information | B |
+| Q10 | Correctly states population data is unavailable | States data is unavailable but adds an unsupported general statement | A |
 
 ## Conclusion
 
-The two prompt versions will be evaluated using the same 10 questions. The better prompt will be selected based on factual accuracy, relevance, completeness, and hallucination control.
+Version B performs better overall because it produces structured JSON responses, includes follow-up questions, and handles unavailable information consistently.
+
+However, both versions depend on the same retrieved dataset. Missing fort details remain a limitation of the current knowledge base.
 
 ## Final Evaluation Summary
 
 ### Evaluation Method
 
-Both prompt versions were tested using the same 10 GadKille questions.
-
-The responses were compared using five criteria:
-
-1. Accuracy
-2. Relevance
-3. Completeness
-4. Hallucination control
-5. Clarity
+Both prompt versions were tested using the same 10 questions and identical retrieved context for each question.
 
 ### Scoring System
 
@@ -93,17 +87,19 @@ The responses were compared using five criteria:
 
 | Evaluation Criteria | Version A | Version B |
 |---|---:|---:|
-| Accuracy | To be scored | To be scored |
-| Relevance | To be scored | To be scored |
-| Completeness | To be scored | To be scored |
-| Hallucination Control | To be scored | To be scored |
-| Clarity | To be scored | To be scored |
+| Accuracy | 4 | 4 |
+| Relevance | 4 | 5 |
+| Completeness | 3 | 4 |
+| Hallucination Control | 4 | 4 |
+| Clarity | 4 | 5 |
+| **Total** | **19/25** | **22/25** |
 
 ### Final Conclusion
 
-The improved prompt is designed to provide more structured responses, reduce hallucinations, and handle unavailable information more responsibly.
+Version B is selected as the preferred prompt.
 
-The final selection will be based on the actual evaluation results across all 10 questions.
+It provides more consistent JSON output, better response structure, useful follow-up questions, and clearer handling of missing information.
 
-Version B should be selected only if the observed results support its use.
+Further improvements are needed in the GadKille dataset to provide historical information, trekking difficulty, fort height, and base village details.
 
+The evaluation was conducted manually by comparing the generated responses. The scores represent qualitative assessment rather than automated factual verification.
