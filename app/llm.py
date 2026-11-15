@@ -8,15 +8,20 @@ load_dotenv()
 
 
 def generate_response(prompt, system_prompt=""):
+
     provider = os.getenv("LLM_PROVIDER", "groq").lower()
 
     if provider == "groq":
-        client = Groq(
-            api_key=os.getenv("Groq api key")
-        )
+
+        api_key = os.getenv("GROQ_API_KEY")
+
+        if not api_key:
+            raise ValueError("GROQ_API_KEY is missing from .env")
+
+        client = Groq(api_key=api_key)
 
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": prompt}
@@ -27,9 +32,13 @@ def generate_response(prompt, system_prompt=""):
         return response.choices[0].message.content
 
     elif provider == "gemini":
-        client = genai.Client(
-            api_key=os.getenv("Gemini api key ")
-        )
+
+        api_key = os.getenv("GEMINI_API_KEY")
+
+        if not api_key:
+            raise ValueError("GEMINI_API_KEY is missing from .env")
+
+        client = genai.Client(api_key=api_key)
 
         response = client.models.generate_content(
             model="gemini-2.5-flash",

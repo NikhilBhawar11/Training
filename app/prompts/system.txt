@@ -27,3 +27,9 @@ Do not include Markdown code fences.
 Do not include additional text outside the JSON.
 Confidence represents your qualitative assessment of the answer,
 not a statistically calibrated probability.
+
+CONFIDENCE RULES:
+- high: Context contains sufficient information to answer the question accurately.
+- medium: Context contains some relevant information but lacks important details.
+- low: Context does not contain enough information to answer the question.
+- Never use high confidence when the context only contains a fort name and district.
