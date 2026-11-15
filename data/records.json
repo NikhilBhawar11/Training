@@ -832,14 +832,6 @@
         "source_url": "https://en.wikipedia.org/wiki/Dronagiri"
     },
     {
-        "fort_name": "Ghangad",
-        "district": "Raigad",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Ghangad"
-    },
-    {
         "fort_name": "Irshalgad",
         "district": "Raigad",
         "height_ft": null,
@@ -918,14 +910,6 @@
         "base_village": null,
         "trek_notes": null,
         "source_url": "https://en.wikipedia.org/wiki/Malanggad"
-    },
-    {
-        "fort_name": "Manikgad",
-        "district": "Raigad",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Manikgad"
     },
     {
         "fort_name": "Mrugagad",
@@ -1224,14 +1208,6 @@
         "source_url": "https://en.wikipedia.org/wiki/Pandavgad"
     },
     {
-        "fort_name": "Prachitgad",
-        "district": "Satara",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Prachitgad"
-    },
-    {
         "fort_name": "Pratapgad",
         "district": "Satara",
         "height_ft": null,
@@ -1328,14 +1304,6 @@
         "source_url": "https://en.wikipedia.org/wiki/Belapur_Fort"
     },
     {
-        "fort_name": "Bhairavgad",
-        "district": "Thane",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Bhairavgad"
-    },
-    {
         "fort_name": "Dharavi",
         "district": "Thane",
         "height_ft": null,
@@ -1414,5 +1382,245 @@
         "base_village": null,
         "trek_notes": null,
         "source_url": "https://en.wikipedia.org/wiki/Jalna_Fort"
+    },
+    {
+        "fort_name": "Akluj Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Akluj_Fort"
+    },
+    {
+        "fort_name": "Anjanvel Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Anjanvel_Fort"
+    },
+    {
+        "fort_name": "Arnala fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Arnala_fort"
+    },
+    {
+        "fort_name": "Asheri Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Asheri_fort"
+    },
+    {
+        "fort_name": "Avandha Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Avandha_Fort"
+    },
+    {
+        "fort_name": "Bahadur Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Bahadur_Fort"
+    },
+    {
+        "fort_name": "Bankot fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Bankot_fort"
+    },
+    {
+        "fort_name": "Bhagwantgad",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Bhagwantgad"
+    },
+    {
+        "fort_name": "Bhorgiri fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Bhorgiri_fort"
+    },
+    {
+        "fort_name": "Bhupatgad Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Bhupatgad_Fort"
+    },
+    {
+        "fort_name": "Birwadi fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Birwadi_fort"
+    },
+    {
+        "fort_name": "Chandan Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Chandan_Fort"
+    },
+    {
+        "fort_name": "Chandragad Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Chandragad_Fort"
+    },
+    {
+        "fort_name": "Chandwad fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Chandwad_fort"
+    },
+    {
+        "fort_name": "Dativare fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Dativare_fort"
+    },
+    {
+        "fort_name": "Dermal Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Dermal_Fort"
+    },
+    {
+        "fort_name": "Devgad fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Devgad_fort"
+    },
+    {
+        "fort_name": "Dhunda fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Dhunda_fort"
+    },
+    {
+        "fort_name": "Dronagiri Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Dronagiri_Fort"
+    },
+    {
+        "fort_name": "Fattegad",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Fattegad"
+    },
+    {
+        "fort_name": "Fort George",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Fort_George,_Mumbai"
+    },
+    {
+        "fort_name": "Gagangad",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Gagangad"
+    },
+    {
+        "fort_name": "Galna Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Galna_Fort"
+    },
+    {
+        "fort_name": "Ghargad",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Ghargad"
+    },
+    {
+        "fort_name": "Ghosalegad Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Ghosalegad_Fort"
+    },
+    {
+        "fort_name": "Goa Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Goa_Fort"
+    },
+    {
+        "fort_name": "Hadsar",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Hadsar"
+    },
+    {
+        "fort_name": "Hargad Fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Hargad_Fort"
+    },
+    {
+        "fort_name": "Indori fort",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Indori_fort"
+    },
+    {
+        "fort_name": "Fort Jadhavgadh",
+        "district": null,
+        "height_ft": null,
+        "base_village": null,
+        "trek_notes": null,
+        "source_url": "https://en.wikipedia.org/wiki/Fort_Jadhavgadh"
     }
 ]
