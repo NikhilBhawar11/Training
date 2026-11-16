@@ -1,0 +1,99 @@
+
+[
+  {
+    "id": "Q1",
+    "question": "Where is Ahmednagar Fort located?",
+    "expected_forts": ["Ahmednagar Fort"],
+    "answerable": true
+  },
+  {
+    "id": "Q2",
+    "question": "Tell me about Ahmednagar Fort.",
+    "expected_forts": ["Ahmednagar Fort"],
+    "answerable": true
+  },
+  {
+    "id": "Q3",
+    "question": "Which district is Patta Fort located in?",
+    "expected_forts": ["Patta Fort"],
+    "answerable": true
+  },
+  {
+    "id": "Q4",
+    "question": "Tell me about Harishchandragad Fort.",
+    "expected_forts": ["Harishchandragad"],
+    "answerable": true
+  },
+  {
+    "id": "Q5",
+    "question": "Which forts are located in Ahmednagar district?",
+    "expected_forts": ["Ahmednagar Fort"],
+    "answerable": true
+  },
+  {
+    "id": "Q6",
+    "question": "What is the exact underground tunnel length of Ahmednagar Fort in kilometers?",
+    "expected_forts": ["Ahmednagar Fort"],
+    "answerable": false
+  },
+  {
+    "id": "Q7",
+    "question": "Tell me about Raigad Fort.",
+    "expected_forts": ["Raigad"],
+    "answerable": true
+  },
+  {
+    "id": "Q8",
+    "question": "Where is Panhala Fort located?",
+    "expected_forts": ["Panhala"],
+    "answerable": true
+  },
+  {
+    "id": "Q9",
+    "question": "Tell me about Shivneri Fort.",
+    "expected_forts": ["Shivneri"],
+    "answerable": true
+  },
+  {
+    "id": "Q10",
+    "question": "Which forts are located in Nashik district?",
+    "expected_forts": [
+        "Achala Fort",
+        "Ahivant Fort",
+        "Alang Fort",
+        "Anjaneri",
+        "Ankai Fort"
+    ],
+    "answerable": true
+},
+  {
+    "id": "Q11",
+    "question": "Tell me about Sinhagad Fort.",
+    "expected_forts": ["Sinhagad"],
+    "answerable": true
+  },
+  {
+    "id": "Q12",
+    "question": "Where is Pratapgad Fort located?",
+    "expected_forts": ["Pratapgad"],
+    "answerable": true
+  },
+  {
+    "id": "Q13",
+    "question": "Tell me about Torna Fort.",
+    "expected_forts": ["Torna"],
+    "answerable": true
+  },
+  {
+    "id": "Q14",
+    "question": "Where is Lohagad Fort located?",
+    "expected_forts": ["Lohagad"],
+    "answerable": true
+  },
+  {
+    "id": "Q15",
+    "question": "Tell me about Rajgad Fort.",
+    "expected_forts": ["Rajgad"],
+    "answerable": true
+  }
+]

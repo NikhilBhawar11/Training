@@ -1,0 +1,311 @@
+{
+    "configurations": [
+        {
+            "configuration": {
+                "name": "Config A",
+                "chunk_size": 300,
+                "overlap": 50,
+                "top_k": 3
+            },
+            "metrics": {
+                "hit_rate": 100.0,
+                "mrr": 0.9643
+            },
+            "total_chunks": 145,
+            "total_questions": 15,
+            "answerable_questions": 14,
+            "results": [
+                {
+                    "id": "Q1",
+                    "question": "Where is Ahmednagar Fort located?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Ahmednagar Fort"
+                    ]
+                },
+                {
+                    "id": "Q2",
+                    "question": "Tell me about Ahmednagar Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Ahmednagar Fort"
+                    ]
+                },
+                {
+                    "id": "Q3",
+                    "question": "Which district is Patta Fort located in?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Patta Fort"
+                    ]
+                },
+                {
+                    "id": "Q4",
+                    "question": "Tell me about Harishchandragad Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Harishchandragad"
+                    ]
+                },
+                {
+                    "id": "Q5",
+                    "question": "Which forts are located in Ahmednagar district?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Ahmednagar Fort"
+                    ]
+                },
+                {
+                    "id": "Q6",
+                    "question": "What is the exact underground tunnel length of Ahmednagar Fort in kilometers?",
+                    "answerable": false,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Ahmednagar Fort"
+                    ]
+                },
+                {
+                    "id": "Q7",
+                    "question": "Tell me about Raigad Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Raigad Fort"
+                    ]
+                },
+                {
+                    "id": "Q8",
+                    "question": "Where is Panhala Fort located?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Panhala Fort"
+                    ]
+                },
+                {
+                    "id": "Q9",
+                    "question": "Tell me about Shivneri Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Shivneri Fort"
+                    ]
+                },
+                {
+                    "id": "Q10",
+                    "question": "Which forts are located in Nashik district?",
+                    "answerable": true,
+                    "rank": 2,
+                    "retrieved_forts": [
+                        "Bitangad",
+                        "Ahivant Fort"
+                    ]
+                },
+                {
+                    "id": "Q11",
+                    "question": "Tell me about Sinhagad Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Sinhagad"
+                    ]
+                },
+                {
+                    "id": "Q12",
+                    "question": "Where is Pratapgad Fort located?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Pratapgad"
+                    ]
+                },
+                {
+                    "id": "Q13",
+                    "question": "Tell me about Torna Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Torna Fort"
+                    ]
+                },
+                {
+                    "id": "Q14",
+                    "question": "Where is Lohagad Fort located?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Lohagad"
+                    ]
+                },
+                {
+                    "id": "Q15",
+                    "question": "Tell me about Rajgad Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Rajgad"
+                    ]
+                }
+            ]
+        },
+        {
+            "configuration": {
+                "name": "Config B",
+                "chunk_size": 500,
+                "overlap": 100,
+                "top_k": 5
+            },
+            "metrics": {
+                "hit_rate": 100.0,
+                "mrr": 0.9643
+            },
+            "total_chunks": 103,
+            "total_questions": 15,
+            "answerable_questions": 14,
+            "results": [
+                {
+                    "id": "Q1",
+                    "question": "Where is Ahmednagar Fort located?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Ahmednagar Fort"
+                    ]
+                },
+                {
+                    "id": "Q2",
+                    "question": "Tell me about Ahmednagar Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Ahmednagar Fort"
+                    ]
+                },
+                {
+                    "id": "Q3",
+                    "question": "Which district is Patta Fort located in?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Patta Fort"
+                    ]
+                },
+                {
+                    "id": "Q4",
+                    "question": "Tell me about Harishchandragad Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Harishchandragad"
+                    ]
+                },
+                {
+                    "id": "Q5",
+                    "question": "Which forts are located in Ahmednagar district?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Ahmednagar Fort"
+                    ]
+                },
+                {
+                    "id": "Q6",
+                    "question": "What is the exact underground tunnel length of Ahmednagar Fort in kilometers?",
+                    "answerable": false,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Ahmednagar Fort"
+                    ]
+                },
+                {
+                    "id": "Q7",
+                    "question": "Tell me about Raigad Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Raigad Fort"
+                    ]
+                },
+                {
+                    "id": "Q8",
+                    "question": "Where is Panhala Fort located?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Panhala Fort"
+                    ]
+                },
+                {
+                    "id": "Q9",
+                    "question": "Tell me about Shivneri Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Shivneri Fort"
+                    ]
+                },
+                {
+                    "id": "Q10",
+                    "question": "Which forts are located in Nashik district?",
+                    "answerable": true,
+                    "rank": 2,
+                    "retrieved_forts": [
+                        "Bitangad",
+                        "Ahivant Fort"
+                    ]
+                },
+                {
+                    "id": "Q11",
+                    "question": "Tell me about Sinhagad Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Sinhagad"
+                    ]
+                },
+                {
+                    "id": "Q12",
+                    "question": "Where is Pratapgad Fort located?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Pratapgad"
+                    ]
+                },
+                {
+                    "id": "Q13",
+                    "question": "Tell me about Torna Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Torna Fort"
+                    ]
+                },
+                {
+                    "id": "Q14",
+                    "question": "Where is Lohagad Fort located?",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Lohagad"
+                    ]
+                },
+                {
+                    "id": "Q15",
+                    "question": "Tell me about Rajgad Fort.",
+                    "answerable": true,
+                    "rank": 1,
+                    "retrieved_forts": [
+                        "Rajgad"
+                    ]
+                }
+            ]
+        }
+    ],
+    "winner": "Config A"
+}

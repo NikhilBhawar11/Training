@@ -8,6 +8,8 @@ from urllib.parse import urlparse, unquote
 import requests
 from bs4 import BeautifulSoup
 
+from app import records
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -26,6 +28,10 @@ TITLE_ALIASES = {
     "Panhala": ["Panhala Fort"],
     "Pargadh": ["Pargad"],
     "Udgir": ["Udgir Fort"],
+    "Shivneri": ["Shivneri Fort"],
+    "Torna": ["Torna Fort"],
+    "Raigad": ["Raigad Fort"],
+    "Alang": ["Alang Fort"]
 }
 
 
@@ -80,8 +86,19 @@ def fetch_documents():
         "User-Agent": "GadKilleStudentProject/1.0 (educational project)"
     })
 
-    # Batch 2: records 11–20
-    selected_records = records[30:40]
+    # Download seven missing fort articles
+    target_forts = [
+    "Achala Fort",
+    "Ahivant Fort",
+    "Alang",
+    "Anjaneri",
+    "Ankai Fort"
+]
+
+    selected_records = [
+        record for record in records
+        if record.get("fort_name") in target_forts
+    ]
 
     for record in selected_records:
 

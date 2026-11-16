@@ -115,6 +115,23 @@ def get_rag_pipeline():
 
 
 @app.post("/chat", response_model=ChatResponse)
+@app.post("/ask", response_model=ChatResponse)
+def chat(request: ChatRequest):
+
+    try:
+
+        rag = get_rag_pipeline()
+
+        result = rag.answer(request.question)
+
+        return ChatResponse(**result)
+
+    except ValueError as error:
+
+        raise HTTPException(
+            status_code=502,
+            detail=str(error)
+        )
 def chat(request: ChatRequest):
 
     try:
