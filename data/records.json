@@ -21,7 +21,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Bhairavgad_(fort)"
+        "source_url": "https://en.wikipedia.org/wiki/Bhairavgad_(fort)",
+        "latitude": 19.3178131,
+        "longitude": 73.7131545
     },
     {
         "fort_name": "Bitangad",
@@ -29,7 +31,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Bitangad"
+        "source_url": "https://en.wikipedia.org/wiki/Bitangad",
+        "latitude": 19.6538306,
+        "longitude": 73.7861417
     },
     {
         "fort_name": "Harishchandragad",
@@ -37,7 +41,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Harishchandragad"
+        "source_url": "https://en.wikipedia.org/wiki/Harishchandragad",
+        "latitude": 19.388239,
+        "longitude": 73.77594
     },
     {
         "fort_name": "Kharda",
@@ -45,7 +51,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Kharda"
+        "source_url": "https://en.wikipedia.org/wiki/Kharda",
+        "latitude": 18.6331398,
+        "longitude": 75.4747331
     },
     {
         "fort_name": "Kunjargad",
@@ -53,7 +61,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Kunjargad"
+        "source_url": "https://en.wikipedia.org/wiki/Kunjargad",
+        "latitude": 19.392361,
+        "longitude": 73.862
     },
     {
         "fort_name": "Pabargad",
@@ -61,7 +71,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Pabargad"
+        "source_url": "https://en.wikipedia.org/wiki/Pabargad",
+        "latitude": 19.482361,
+        "longitude": 73.752833
     },
     {
         "fort_name": "Patta Fort",
@@ -69,7 +81,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Patta_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Patta_Fort",
+        "latitude": 19.707278,
+        "longitude": 73.836278
     },
     {
         "fort_name": "Ratangad",
@@ -77,7 +91,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Ratangad"
+        "source_url": "https://en.wikipedia.org/wiki/Ratangad",
+        "latitude": 19.5,
+        "longitude": 73.69
     },
     {
         "fort_name": "Akola Fort",
@@ -85,7 +101,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Akola_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Akola_Fort",
+        "latitude": 20.706225,
+        "longitude": 76.990019
     },
     {
         "fort_name": "Balapur",
@@ -93,7 +111,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Balapur_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Balapur_Fort",
+        "latitude": 20.670309,
+        "longitude": 76.7737
     },
     {
         "fort_name": "Narnala",
@@ -109,7 +129,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Gawilghur"
+        "source_url": "https://en.wikipedia.org/wiki/Gawilghur",
+        "latitude": 21.38222,
+        "longitude": 77.33389
     },
     {
         "fort_name": "Antur Fort",
@@ -117,7 +139,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Antur_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Antur_Fort",
+        "latitude": 20.427345,
+        "longitude": 75.236017
     },
     {
         "fort_name": "Daulatabad Fort",
@@ -125,7 +149,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Daulatabad_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
+        "latitude": 19.942724,
+        "longitude": 75.213164
     },
     {
         "fort_name": "Ballarpur Fort",
@@ -133,7 +159,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Ballarpur_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Ballarpur_Fort",
+        "latitude": 19.8508361,
+        "longitude": 79.341875
     },
     {
         "fort_name": "Manikgad",
@@ -141,7 +169,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Manikgad"
+        "source_url": "https://en.wikipedia.org/wiki/Manikgad",
+        "latitude": 19.675167,
+        "longitude": 79.125417
     },
     {
         "fort_name": "Bhamer",
@@ -149,7 +179,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Bhamer_Dhule"
+        "source_url": "https://en.wikipedia.org/wiki/Bhamer_Dhule",
+        "latitude": 21.07,
+        "longitude": 74.33
     },
     {
         "fort_name": "Laling",
@@ -157,7 +189,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Laling_fort"
+        "source_url": "https://en.wikipedia.org/wiki/Laling_fort",
+        "latitude": 20.812,
+        "longitude": 74.7395
     },
     {
         "fort_name": "Thalner",
@@ -165,7 +199,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Thalner"
+        "source_url": "https://en.wikipedia.org/wiki/Thalner",
+        "latitude": 21.255,
+        "longitude": 74.955
     },
     {
         "fort_name": "Bhudargad",
@@ -173,7 +209,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Bhudargad"
+        "source_url": "https://en.wikipedia.org/wiki/Bhudargad",
+        "latitude": 16.235033,
+        "longitude": 74.048109
     },
     {
         "fort_name": "Panhala",
@@ -181,7 +219,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Panhala_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Panhala_Fort",
+        "latitude": 16.80889,
+        "longitude": 74.10917
     },
     {
         "fort_name": "Pargadh",
@@ -189,7 +229,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Pargadh"
+        "source_url": "https://en.wikipedia.org/wiki/Pargadh",
+        "latitude": 15.81649,
+        "longitude": 74.04562
     },
     {
         "fort_name": "Pavangad",
@@ -213,7 +255,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Vishalgad"
+        "source_url": "https://en.wikipedia.org/wiki/Vishalgad",
+        "latitude": 16.90611,
+        "longitude": 73.74333
     },
     {
         "fort_name": "Udgir",
@@ -221,7 +265,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Udgir_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Udgir_Fort",
+        "latitude": 18.4028,
+        "longitude": 77.1178
     },
     {
         "fort_name": "Bombay Castle",
@@ -229,7 +275,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Bombay_Castle"
+        "source_url": "https://en.wikipedia.org/wiki/Bombay_Castle",
+        "latitude": 18.931626049277,
+        "longitude": 72.838142962998
     },
     {
         "fort_name": "Dongri Fort",
@@ -237,7 +285,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Dongri_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Dongri_Fort",
+        "latitude": 19.3101833,
+        "longitude": 72.7934472
     },
     {
         "fort_name": "Fort George",
@@ -333,7 +383,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Achala_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Achala_Fort",
+        "latitude": 20.431722,
+        "longitude": 73.81525
     },
     {
         "fort_name": "Ahivant Fort",
@@ -341,7 +393,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Ahivant_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Ahivant_Fort",
+        "latitude": 20.415444,
+        "longitude": 73.86
     },
     {
         "fort_name": "Alang",
@@ -349,7 +403,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Alang_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Alang_Fort",
+        "latitude": 19.5827,
+        "longitude": 73.6612
     },
     {
         "fort_name": "Anjaneri",
@@ -357,7 +413,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Anjaneri"
+        "source_url": "https://en.wikipedia.org/wiki/Anjaneri",
+        "latitude": 19.92,
+        "longitude": 73.57
     },
     {
         "fort_name": "Ankai Fort",
@@ -365,7 +423,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Ankai_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Ankai_Fort",
+        "latitude": 20.18722,
+        "longitude": 74.447639
     },
     {
         "fort_name": "Bhaskargad",
@@ -653,7 +713,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Lohagad"
+        "source_url": "https://en.wikipedia.org/wiki/Lohagad",
+        "latitude": 18.70889,
+        "longitude": 73.47667
     },
     {
         "fort_name": "Malhargad",
@@ -701,7 +763,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Rajgad"
+        "source_url": "https://en.wikipedia.org/wiki/Rajgad",
+        "latitude": 18.2459862,
+        "longitude": 73.6821929
     },
     {
         "fort_name": "Rajmachi",
@@ -741,7 +805,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Shivneri"
+        "source_url": "https://en.wikipedia.org/wiki/Shivneri",
+        "latitude": 19.199,
+        "longitude": 73.8595
     },
     {
         "fort_name": "Shrivardhan",
@@ -757,7 +823,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Sinhagad"
+        "source_url": "https://en.wikipedia.org/wiki/Sinhagad",
+        "latitude": 18.3656639,
+        "longitude": 73.7552694
     },
     {
         "fort_name": "Tikona",
@@ -773,7 +841,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Torna_Fort"
+        "source_url": "https://en.wikipedia.org/wiki/Torna_Fort",
+        "latitude": 18.2760722,
+        "longitude": 73.6227167
     },
     {
         "fort_name": "Tung",
@@ -965,7 +1035,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Raigad_fort"
+        "source_url": "https://en.wikipedia.org/wiki/Raigad_fort",
+        "latitude": 18.2335,
+        "longitude": 73.4406
     },
     {
         "fort_name": "Revdanda",
@@ -1213,7 +1285,9 @@
         "height_ft": null,
         "base_village": null,
         "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Pratapgad"
+        "source_url": "https://en.wikipedia.org/wiki/Pratapgad",
+        "latitude": 17.936224,
+        "longitude": 73.577607
     },
     {
         "fort_name": "Sajjangad",

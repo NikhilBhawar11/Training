@@ -12,32 +12,27 @@ class SemanticSearch:
         self.vector_store = VectorStore()
 
     def load_documents(self):
-        """Load GadKille records."""
+        """Load extracted Wikipedia article documents."""
 
-        file_path = Path("data/records.json")
+        file_path = Path("data/raw/extracted_articles.json")
 
         with open(file_path, "r", encoding="utf-8") as file:
-            records = json.load(file)
+            articles = json.load(file)
 
         documents = []
 
-        for record in records:
-            text = " ".join(
-                f"{key}: {value}"
-                for key, value in record.items()
-                if value is not None and str(value).strip()
-            )
-
+        for article in articles:
             documents.append({
-                "text": text,
-                "title": record.get("fort_name", "Unknown Fort"),
-                "source": record.get("source_url", "records.json"),
-                "page": "not_available"
+                "text": article.get("text", ""),
+                "title": article.get("title", "Unknown Fort"),
+                "source": article.get("source", "unknown"),
+                "page": article.get("page", 1)
             })
 
         return documents
 
     def build_index(self):
+        self.vector_store.reset_collection()
         """Chunk documents and store them in ChromaDB."""
 
         documents = self.load_documents()
