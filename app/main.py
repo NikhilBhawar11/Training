@@ -1,5 +1,8 @@
 
+import json
 from functools import lru_cache
+from pathlib import Path
+from datetime import datetime, timezone
 
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
@@ -36,6 +39,15 @@ class GraphRequest(BaseModel):
 class GraphResumeRequest(BaseModel):
     thread_id: str
     approved: bool
+
+class FeedbackRequest(BaseModel):
+    question: str
+    answer: str
+    mode: str = "Ask"
+    rating: str  # "thumbs_up" or "thumbs_down"
+    comment: str | None = None
+    timestamp: str | None = None
+
 class ChatResponse(BaseModel):
     answer: str
     confidence: str
@@ -155,22 +167,51 @@ def chat(request: ChatRequest):
             status_code=502,
             detail=str(error)
         )
-def chat(request: ChatRequest):
 
+
+# -----------------------------
+# Feedback Endpoint
+# -----------------------------
+
+FEEDBACK_FILE = Path(__file__).resolve().parent.parent / "data" / "feedback.jsonl"
+
+
+@app.post("/feedback")
+def save_feedback(feedback: FeedbackRequest):
     try:
+        data = feedback.model_dump()
+        if not data.get("timestamp"):
+            data["timestamp"] = datetime.now(timezone.utc).isoformat()
 
-        rag = get_rag_pipeline()
+        FEEDBACK_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with open(FEEDBACK_FILE, "a", encoding="utf-8") as f:
+            f.write(json.dumps(data, ensure_ascii=False) + "\n")
 
-        result = rag.answer(request.question)
-
-        return ChatResponse(**result)
-
-    except ValueError as error:
-
+        return {
+            "status": "success",
+            "message": "Feedback saved successfully",
+            "rating": feedback.rating
+        }
+    except Exception as error:
         raise HTTPException(
-            status_code=502,
+            status_code=500,
             detail=str(error)
         )
+
+
+@app.get("/feedback")
+def get_feedback(limit: int = 50):
+    if not FEEDBACK_FILE.exists():
+        return []
+
+    records = []
+    with open(FEEDBACK_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                records.append(json.loads(line))
+
+    return records[-limit:]
 
 
 # -----------------------------

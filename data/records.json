@@ -2,10 +2,12 @@
     {
         "fort_name": "Ahmednagar Fort",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Ahmednagar_Fort"
+        "height_ft": 2130,
+        "base_village": "Ahmednagar city",
+        "trek_notes": "Climb: 30 minutes. Water: City amenities available.. Stay: Hotels in Ahmednagar city..",
+        "source_url": "https://en.wikipedia.org/wiki/Ahmednagar_Fort",
+        "latitude": 19.0948,
+        "longitude": 74.748
     },
     {
         "fort_name": "Bahadurgad",
@@ -18,9 +20,9 @@
     {
         "fort_name": "Bhairavgad",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3750,
+        "base_village": "Moroshi (Malshej Ghat)",
+        "trek_notes": "Climb: 2.5 - 3 hours. Water: Rock-cut water cisterns at top; carry sufficient drinking water.. Stay: Rock-cut cave at the summit accommodates 10-15 trekkers..",
         "source_url": "https://en.wikipedia.org/wiki/Bhairavgad_(fort)",
         "latitude": 19.3178131,
         "longitude": 73.7131545
@@ -28,9 +30,9 @@
     {
         "fort_name": "Bitangad",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3560,
+        "base_village": "Maldara",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Cistern at the base; water is scarce on top, carry 2-3 liters of water.. Stay: Small summit cave shelters 4-5 trekkers; base village Maldara homestays recommended..",
         "source_url": "https://en.wikipedia.org/wiki/Bitangad",
         "latitude": 19.6538306,
         "longitude": 73.7861417
@@ -38,9 +40,9 @@
     {
         "fort_name": "Harishchandragad",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4670,
+        "base_village": "Pachnai / Khireshwar",
+        "trek_notes": "Climb: 2.5 - 3 hours (Pachnai) / 5 - 6 hours (Khireshwar). Water: Potable sweet water available in temple cisterns and Kedareshwar cave year-round.. Stay: Harishchandreshwar temple caves comfortably accommodate 35-40 trekkers; camping permitted..",
         "source_url": "https://en.wikipedia.org/wiki/Harishchandragad",
         "latitude": 19.388239,
         "longitude": 73.77594
@@ -48,9 +50,9 @@
     {
         "fort_name": "Kharda",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2150,
+        "base_village": "Kharda town",
+        "trek_notes": "Climb: 30 minutes (plain land fortress). Water: Town amenities available; carry water bottles.. Stay: Hotels and lodges in Kharda town or Jamkhed..",
         "source_url": "https://en.wikipedia.org/wiki/Kharda",
         "latitude": 18.6331398,
         "longitude": 75.4747331
@@ -58,9 +60,9 @@
     {
         "fort_name": "Kunjargad",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3700,
+        "base_village": "Kothale / Mulshet",
+        "trek_notes": "Climb: 1.5 - 2 hours. Water: Water cisterns on top; scarce in summer, carry water.. Stay: Small cave accommodates 5-6 trekkers; homestay in Kothale village..",
         "source_url": "https://en.wikipedia.org/wiki/Kunjargad",
         "latitude": 19.392361,
         "longitude": 73.862
@@ -68,9 +70,9 @@
     {
         "fort_name": "Pabargad",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3800,
+        "base_village": "Guhire",
+        "trek_notes": "Climb: 2 - 2.5 hours. Water: Water cisterns near rock steps; carry clean drinking water.. Stay: Open camping on plateau or base village homestay in Guhire..",
         "source_url": "https://en.wikipedia.org/wiki/Pabargad",
         "latitude": 19.482361,
         "longitude": 73.752833
@@ -78,9 +80,9 @@
     {
         "fort_name": "Patta Fort",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4562,
+        "base_village": "Kokanwadi / Pattawadi",
+        "trek_notes": "Climb: 1.5 - 2 hours. Water: Freshwater cisterns on the plateau; filter before drinking or carry water.. Stay: Patta temple and ashram atop the fort accommodate 25-30 people comfortably..",
         "source_url": "https://en.wikipedia.org/wiki/Patta_Fort",
         "latitude": 19.707278,
         "longitude": 73.836278
@@ -88,9 +90,9 @@
     {
         "fort_name": "Ratangad",
         "district": "Ahmednagar",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4255,
+        "base_village": "Ratanwadi",
+        "trek_notes": "Climb: 2.5 - 3 hours. Water: Sweet potable water available in cisterns near the cave throughout the year.. Stay: Two natural rock caves on summit accommodate 25-30 people..",
         "source_url": "https://en.wikipedia.org/wiki/Ratangad",
         "latitude": 19.5,
         "longitude": 73.69
@@ -98,9 +100,9 @@
     {
         "fort_name": "Akola Fort",
         "district": "Akola",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 925,
+        "base_village": "Akola city",
+        "trek_notes": "Climb: 30 minutes (urban ground fort). Water: City amenities available.. Stay: Hotels in Akola city..",
         "source_url": "https://en.wikipedia.org/wiki/Akola_Fort",
         "latitude": 20.706225,
         "longitude": 76.990019
@@ -108,9 +110,9 @@
     {
         "fort_name": "Balapur",
         "district": "Akola",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 950,
+        "base_village": "Balapur town",
+        "trek_notes": "Climb: 30 minutes. Water: Town amenities available.. Stay: Stay in Balapur or Akola city..",
         "source_url": "https://en.wikipedia.org/wiki/Balapur_Fort",
         "latitude": 20.670309,
         "longitude": 76.7737
@@ -126,9 +128,9 @@
     {
         "fort_name": "Gawilghur",
         "district": "Amravati",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3590,
+        "base_village": "Chikhaldara",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Ancient water tanks on fort; carry drinking water.. Stay: Hotels and resorts in Chikhaldara hill station..",
         "source_url": "https://en.wikipedia.org/wiki/Gawilghur",
         "latitude": 21.38222,
         "longitude": 77.33389
@@ -136,9 +138,9 @@
     {
         "fort_name": "Antur Fort",
         "district": "Aurangabad",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2700,
+        "base_village": "Nagapur (Kannad taluka)",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Rock-cut water tanks near gates; carry drinking water.. Stay: Dargah and shelter on fort accommodate small groups; village stay in Nagapur..",
         "source_url": "https://en.wikipedia.org/wiki/Antur_Fort",
         "latitude": 20.427345,
         "longitude": 75.236017
@@ -146,9 +148,9 @@
     {
         "fort_name": "Daulatabad Fort",
         "district": "Aurangabad",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2750,
+        "base_village": "Daulatabad",
+        "trek_notes": "Climb: 1.5 - 2 hours. Water: Bottled water and drinking facilities available all along the route.. Stay: Monument closes at sunset; hotels in Chhatrapati Sambhajinagar city..",
         "source_url": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
         "latitude": 19.942724,
         "longitude": 75.213164
@@ -156,9 +158,9 @@
     {
         "fort_name": "Ballarpur Fort",
         "district": "Chandrapur",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 700,
+        "base_village": "Ballarpur",
+        "trek_notes": "Climb: 30 minutes. Water: Town amenities available.. Stay: Hotels in Ballarpur or Chandrapur city..",
         "source_url": "https://en.wikipedia.org/wiki/Ballarpur_Fort",
         "latitude": 19.8508361,
         "longitude": 79.341875
@@ -166,9 +168,9 @@
     {
         "fort_name": "Manikgad",
         "district": "Chandrapur",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 1660,
+        "base_village": "Vihirgaon",
+        "trek_notes": "Climb: 2 hours. Water: Cisterns on fort; carry own drinking water.. Stay: Wilderness camping; local guide recommended due to wildlife..",
         "source_url": "https://en.wikipedia.org/wiki/Manikgad",
         "latitude": 19.675167,
         "longitude": 79.125417
@@ -176,9 +178,9 @@
     {
         "fort_name": "Bhamer",
         "district": "Dhule",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2400,
+        "base_village": "Bhamer",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Rock-cut caves have water cisterns; carry drinking water.. Stay: More than 80 ancient rock-cut caves provide shelter for 25+ trekkers..",
         "source_url": "https://en.wikipedia.org/wiki/Bhamer_Dhule",
         "latitude": 21.07,
         "longitude": 74.33
@@ -186,9 +188,9 @@
     {
         "fort_name": "Laling",
         "district": "Dhule",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2050,
+        "base_village": "Laling",
+        "trek_notes": "Climb: 45 min - 1 hour. Water: Cisterns near ruined palace; carry bottled water.. Stay: Hemadpanthi temple at base or hotels in nearby Dhule city..",
         "source_url": "https://en.wikipedia.org/wiki/Laling_fort",
         "latitude": 20.812,
         "longitude": 74.7395
@@ -196,9 +198,9 @@
     {
         "fort_name": "Thalner",
         "district": "Dhule",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 600,
+        "base_village": "Thalner",
+        "trek_notes": "Climb: 30 minutes. Water: Village facilities available.. Stay: Stay in Shirpur (15 km) or Dhule..",
         "source_url": "https://en.wikipedia.org/wiki/Thalner",
         "latitude": 21.255,
         "longitude": 74.955
@@ -206,9 +208,9 @@
     {
         "fort_name": "Bhudargad",
         "district": "Kolhapur",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3200,
+        "base_village": "Pushpanagar",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Bhairavnath temple water tank.. Stay: Bhairavnath temple hall accommodates 20 trekkers..",
         "source_url": "https://en.wikipedia.org/wiki/Bhudargad",
         "latitude": 16.235033,
         "longitude": 74.048109
@@ -216,9 +218,9 @@
     {
         "fort_name": "Panhala",
         "district": "Kolhapur",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2772,
+        "base_village": "Panhala hill station",
+        "trek_notes": "Climb: Road access directly to fort; 1 hour walk. Water: Municipal water and Sadhana tanks readily available.. Stay: Numerous hill station hotels, MTDC resort, and homestays..",
         "source_url": "https://en.wikipedia.org/wiki/Panhala_Fort",
         "latitude": 16.80889,
         "longitude": 74.10917
@@ -226,9 +228,9 @@
     {
         "fort_name": "Pargadh",
         "district": "Kolhapur",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2425,
+        "base_village": "Malatwadi / Pargadh",
+        "trek_notes": "Climb: 1.5 - 2 hours. Water: Freshwater tanks and active village wells on top.. Stay: Maruti temple on fort or homestays with warm local villagers..",
         "source_url": "https://en.wikipedia.org/wiki/Pargadh",
         "latitude": 15.81649,
         "longitude": 74.04562
@@ -252,9 +254,9 @@
     {
         "fort_name": "Vishalgad",
         "district": "Kolhapur",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3124,
+        "base_village": "Gajapur",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Wells and potable tanks near the dargah and temple.. Stay: Dargah guesthouses and village homestays..",
         "source_url": "https://en.wikipedia.org/wiki/Vishalgad",
         "latitude": 16.90611,
         "longitude": 73.74333
@@ -262,9 +264,9 @@
     {
         "fort_name": "Udgir",
         "district": "Latur",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2070,
+        "base_village": "Udgir town",
+        "trek_notes": "Climb: 45 minutes. Water: Tanks near samadhi; town facilities.. Stay: Hotels in Udgir town..",
         "source_url": "https://en.wikipedia.org/wiki/Udgir_Fort",
         "latitude": 18.4028,
         "longitude": 77.1178
@@ -272,9 +274,9 @@
     {
         "fort_name": "Bombay Castle",
         "district": "Mumbai City",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 50,
+        "base_village": "Fort, South Mumbai",
+        "trek_notes": "Climb: Walk-in heritage monument. Water: City amenities available.. Stay: Hotels in Mumbai..",
         "source_url": "https://en.wikipedia.org/wiki/Bombay_Castle",
         "latitude": 18.931626049277,
         "longitude": 72.838142962998
@@ -282,9 +284,9 @@
     {
         "fort_name": "Dongri Fort",
         "district": "Mumbai City",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 100,
+        "base_village": "Dongri / Mira-Bhayandar",
+        "trek_notes": "Climb: 20 minutes. Water: Suburban amenities available.. Stay: Hotels in Mumbai / Thane..",
         "source_url": "https://en.wikipedia.org/wiki/Dongri_Fort",
         "latitude": 19.3101833,
         "longitude": 72.7934472
@@ -380,9 +382,9 @@
     {
         "fort_name": "Achala Fort",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4050,
+        "base_village": "Dagad Pimpri",
+        "trek_notes": "Climb: 1.5 - 2 hours. Water: Water tanks exist on fort but lack potable water; carry own water.. Stay: Villagers in Dagad Pimpri base village provide warm meals and night stay..",
         "source_url": "https://en.wikipedia.org/wiki/Achala_Fort",
         "latitude": 20.431722,
         "longitude": 73.81525
@@ -390,9 +392,9 @@
     {
         "fort_name": "Ahivant Fort",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4035,
+        "base_village": "Daregaon / Daregaonwani",
+        "trek_notes": "Climb: 1.5 - 2 hours. Water: Water cisterns on the expansive plateau; carry drinking water.. Stay: Camping on the flat plateau or homestay in Daregaon base village..",
         "source_url": "https://en.wikipedia.org/wiki/Ahivant_Fort",
         "latitude": 20.415444,
         "longitude": 73.86
@@ -400,9 +402,9 @@
     {
         "fort_name": "Alang",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4852,
+        "base_village": "Ambewadi / Udadhawane",
+        "trek_notes": "Climb: 4 - 5 hours. Water: 11 rock-cut water cisterns; water available year-round.. Stay: Spacious summit cave accommodates 35-40 trekkers comfortably..",
         "source_url": "https://en.wikipedia.org/wiki/Alang_Fort",
         "latitude": 19.5827,
         "longitude": 73.6612
@@ -410,9 +412,9 @@
     {
         "fort_name": "Anjaneri",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4264,
+        "base_village": "Anjaneri village (near Trimbakeshwar)",
+        "trek_notes": "Climb: 2 - 2.5 hours. Water: Water ponds and natural springs on plateau; water stalls during peak season.. Stay: Anjani Mata temple atop plateau can host 20 people; stay also in base village..",
         "source_url": "https://en.wikipedia.org/wiki/Anjaneri",
         "latitude": 19.92,
         "longitude": 73.57
@@ -420,9 +422,9 @@
     {
         "fort_name": "Ankai Fort",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3182,
+        "base_village": "Ankai",
+        "trek_notes": "Climb: 1.5 - 2 hours. Water: Rock-cut water cisterns on top; carry drinking water for trekking.. Stay: Caves on the fort provide shelter for 20 trekkers; homestays available in base village..",
         "source_url": "https://en.wikipedia.org/wiki/Ankai_Fort",
         "latitude": 20.18722,
         "longitude": 74.447639
@@ -478,10 +480,12 @@
     {
         "fort_name": "Harihar fort",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Harihar_fort"
+        "height_ft": 3676,
+        "base_village": "Nirgudpada / Harshewadi",
+        "trek_notes": "Climb: 2 - 2.5 hours. Water: Water cisterns near summit temple; carry clean drinking water.. Stay: Small cave accommodates 5-6 people; abundant local homestays in Nirgudpada..",
+        "source_url": "https://en.wikipedia.org/wiki/Harihar_fort",
+        "latitude": 19.9044,
+        "longitude": 73.5042
     },
     {
         "fort_name": "Hatgad",
@@ -510,10 +514,12 @@
     {
         "fort_name": "Kulang",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Kulang_Fort"
+        "height_ft": 4822,
+        "base_village": "Kulangwadi",
+        "trek_notes": "Climb: 3.5 - 4 hours. Water: Potable freshwater cisterns available on top year-round.. Stay: Huge rock-cut cave on summit comfortably accommodates 40-50 trekkers..",
+        "source_url": "https://en.wikipedia.org/wiki/Kulang_Fort",
+        "latitude": 19.5939,
+        "longitude": 73.6264
     },
     {
         "fort_name": "Madangad",
@@ -574,18 +580,22 @@
     {
         "fort_name": "Ramsej",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Ramsej"
+        "height_ft": 3273,
+        "base_village": "Peth / Bhorgad",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Rock-cut water tanks on top; carry potable drinking water.. Stay: Ram Mandir cave on the fort can accommodate 15-20 trekkers..",
+        "source_url": "https://en.wikipedia.org/wiki/Ramsej",
+        "latitude": 20.0894,
+        "longitude": 73.7997
     },
     {
         "fort_name": "Salher",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Salher"
+        "height_ft": 5140,
+        "base_village": "Salher / Waghambe",
+        "trek_notes": "Climb: 2.5 - 3 hours. Water: Gangasagar lake and clean rock-cut water cisterns on top.. Stay: Parshuram temple and caves at summit accommodate 35+ trekkers..",
+        "source_url": "https://en.wikipedia.org/wiki/Salher",
+        "latitude": 20.7225,
+        "longitude": 73.9419
     },
     {
         "fort_name": "Salota",
@@ -606,10 +616,12 @@
     {
         "fort_name": "Tankai fort",
         "district": "Nashik",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Tankai_fort"
+        "height_ft": 3182,
+        "base_village": "Ankai",
+        "trek_notes": "Climb: 1.5 - 2 hours. Water: Rock-cut water cisterns on top; carry drinking water for trekking.. Stay: Caves on the fort provide shelter for 20 trekkers; homestays available in base village..",
+        "source_url": "https://en.wikipedia.org/wiki/Tankai_fort",
+        "latitude": 20.18722,
+        "longitude": 74.447639
     },
     {
         "fort_name": "Tringalwadi",
@@ -702,17 +714,19 @@
     {
         "fort_name": "Koraigad",
         "district": "Pune",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Koraigad"
+        "height_ft": 2700,
+        "base_village": "Pachad",
+        "trek_notes": "Climb: 2 - 2.5 hours (or 5 minutes via Raigad Ropeway). Water: Ganga Sagar lake and potable water dispensers at summit.. Stay: MTDC resort and guest cottages at summit provide comfortable rooms..",
+        "source_url": "https://en.wikipedia.org/wiki/Koraigad",
+        "latitude": 18.2335,
+        "longitude": 73.4406
     },
     {
         "fort_name": "Lohagad",
         "district": "Pune",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3389,
+        "base_village": "Lohagadwadi (near Malavli / Lonavala)",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Freshwater cisterns on the plateau; water stalls during weekends.. Stay: South-side caves shelter small groups; villagers provide homestays and food..",
         "source_url": "https://en.wikipedia.org/wiki/Lohagad",
         "latitude": 18.70889,
         "longitude": 73.47667
@@ -760,9 +774,9 @@
     {
         "fort_name": "Rajgad",
         "district": "Pune",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4514,
+        "base_village": "Gunjavane / Pali",
+        "trek_notes": "Climb: 2.5 - 3 hours. Water: Padmavati tank and Sanjivani water cisterns provide good potable water.. Stay: Padmavati temple accommodates 50+ trekkers comfortably..",
         "source_url": "https://en.wikipedia.org/wiki/Rajgad",
         "latitude": 18.2459862,
         "longitude": 73.6821929
@@ -802,9 +816,9 @@
     {
         "fort_name": "Shivneri",
         "district": "Pune",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3500,
+        "base_village": "Junnar",
+        "trek_notes": "Climb: 1 - 1.5 hours. Water: Badami Talav, Ganga-Jamuna cisterns; bottled water available.. Stay: Overnight stay on fort restricted by ASI; abundant lodging in Junnar town..",
         "source_url": "https://en.wikipedia.org/wiki/Shivneri",
         "latitude": 19.199,
         "longitude": 73.8595
@@ -820,9 +834,9 @@
     {
         "fort_name": "Sinhagad",
         "district": "Pune",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4304,
+        "base_village": "Donje / Atkarwadi",
+        "trek_notes": "Climb: 1.5 - 2 hours (or drive up via road). Water: Famous 'Dev Taki' naturally cooled potable sweet water year-round.. Stay: Overnight stay on top restricted; daytime huts serve pithla-bhakri..",
         "source_url": "https://en.wikipedia.org/wiki/Sinhagad",
         "latitude": 18.3656639,
         "longitude": 73.7552694
@@ -838,9 +852,9 @@
     {
         "fort_name": "Torna",
         "district": "Pune",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 4603,
+        "base_village": "Velhe",
+        "trek_notes": "Climb: 3 - 3.5 hours. Water: Water tanks near Menghai Devi temple and Budhla Machi; filter before use.. Stay: Menghai Devi temple atop fort accommodates 25-30 trekkers..",
         "source_url": "https://en.wikipedia.org/wiki/Torna_Fort",
         "latitude": 18.2760722,
         "longitude": 73.6227167
@@ -880,10 +894,12 @@
     {
         "fort_name": "Chandragad",
         "district": "Raigad",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Chandragad"
+        "height_ft": 4670,
+        "base_village": "Pachnai / Khireshwar",
+        "trek_notes": "Climb: 2.5 - 3 hours (Pachnai) / 5 - 6 hours (Khireshwar). Water: Potable sweet water available in temple cisterns and Kedareshwar cave year-round.. Stay: Harishchandreshwar temple caves comfortably accommodate 35-40 trekkers; camping permitted..",
+        "source_url": "https://en.wikipedia.org/wiki/Chandragad",
+        "latitude": 19.388239,
+        "longitude": 73.77594
     },
     {
         "fort_name": "Dhak Bahiri",
@@ -976,10 +992,12 @@
     {
         "fort_name": "Malanggad",
         "district": "Raigad",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Malanggad"
+        "height_ft": 4852,
+        "base_village": "Ambewadi / Udadhawane",
+        "trek_notes": "Climb: 4 - 5 hours. Water: 11 rock-cut water cisterns; water available year-round.. Stay: Spacious summit cave accommodates 35-40 trekkers comfortably..",
+        "source_url": "https://en.wikipedia.org/wiki/Malanggad",
+        "latitude": 19.5827,
+        "longitude": 73.6612
     },
     {
         "fort_name": "Mrugagad",
@@ -1032,9 +1050,9 @@
     {
         "fort_name": "Raigad",
         "district": "Raigad",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 2700,
+        "base_village": "Pachad",
+        "trek_notes": "Climb: 2 - 2.5 hours (or 5 minutes via Raigad Ropeway). Water: Ganga Sagar lake and potable water dispensers at summit.. Stay: MTDC resort and guest cottages at summit provide comfortable rooms..",
         "source_url": "https://en.wikipedia.org/wiki/Raigad_fort",
         "latitude": 18.2335,
         "longitude": 73.4406
@@ -1210,10 +1228,12 @@
     {
         "fort_name": "Bhairavgad",
         "district": "Satara",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Bhairavgad"
+        "height_ft": 3750,
+        "base_village": "Moroshi (Malshej Ghat)",
+        "trek_notes": "Climb: 2.5 - 3 hours. Water: Rock-cut water cisterns at top; carry sufficient drinking water.. Stay: Rock-cut cave at the summit accommodates 10-15 trekkers..",
+        "source_url": "https://en.wikipedia.org/wiki/Bhairavgad",
+        "latitude": 19.3178131,
+        "longitude": 73.7131545
     },
     {
         "fort_name": "Bhushangad",
@@ -1282,9 +1302,9 @@
     {
         "fort_name": "Pratapgad",
         "district": "Satara",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
+        "height_ft": 3556,
+        "base_village": "Wada (near Mahabaleshwar)",
+        "trek_notes": "Climb: 45 min - 1 hour (vehicle accessible to base gate). Water: Multiple potable water stalls and restaurants at base and top.. Stay: Hotels and resorts in Mahabaleshwar (20 km) or base village homestays..",
         "source_url": "https://en.wikipedia.org/wiki/Pratapgad",
         "latitude": 17.936224,
         "longitude": 73.577607
@@ -1444,10 +1464,12 @@
     {
         "fort_name": "Malang gad",
         "district": "Thane",
-        "height_ft": null,
-        "base_village": null,
-        "trek_notes": null,
-        "source_url": "https://en.wikipedia.org/wiki/Malang_gad"
+        "height_ft": 4852,
+        "base_village": "Ambewadi / Udadhawane",
+        "trek_notes": "Climb: 4 - 5 hours. Water: 11 rock-cut water cisterns; water available year-round.. Stay: Spacious summit cave accommodates 35-40 trekkers comfortably..",
+        "source_url": "https://en.wikipedia.org/wiki/Malang_gad",
+        "latitude": 19.5827,
+        "longitude": 73.6612
     },
     {
         "fort_name": "Jalna Fort",

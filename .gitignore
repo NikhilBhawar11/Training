@@ -15,3 +15,5 @@ __pycache__/
 
 # ChromaDB database
 data/chroma_db/
+data/eval_chroma/
+*.before_coordinates.json
