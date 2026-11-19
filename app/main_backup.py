@@ -1,14 +1,15 @@
-from fastapi import FastAPI, HTTPException
-from app.records import load_records, get_by_id
-from app.smart_search import smart_search
-from pydantic import BaseModel
-from pathlib import Path
 import json
 from functools import lru_cache
-from fastapi import Query
-from app.semantic_search import SemanticSearch
+from pathlib import Path
+
+from fastapi import FastAPI, HTTPException, Query
+from pydantic import BaseModel
 
 from app.llm import generate_response
+from app.records import get_by_id, load_records
+from app.semantic_search import SemanticSearch
+from app.smart_search import smart_search
+
 app = FastAPI(title="GadKille API")
 
 class ChatRequest(BaseModel):

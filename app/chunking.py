@@ -1,5 +1,5 @@
 
-from typing import List, Dict
+from typing import Dict, List
 
 
 def chunk_text(

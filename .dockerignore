@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# Git & IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Environment secrets
+.env
+.env.local
+
+# Backups & evaluations
+*.before_coordinates.json
+data/eval_chroma/
+
+# Assets & documentation artifacts not needed at runtime
+assets/
+task-docs/

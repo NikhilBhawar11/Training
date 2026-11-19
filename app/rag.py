@@ -1,10 +1,11 @@
 
 import json
 import os
-from pathlib import Path
 import re
-from app.semantic_search import SemanticSearch
+from pathlib import Path
+
 from app.llm import generate_response
+from app.semantic_search import SemanticSearch
 
 
 class RAGPipeline:

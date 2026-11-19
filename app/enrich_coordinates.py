@@ -1,14 +1,12 @@
 
 import json
+import math
 import re
 import shutil
-import math
-
 from pathlib import Path
-from urllib.parse import urlparse, unquote
+from urllib.parse import unquote, urlparse
 
 from app.article_extractor import extract_article
-
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

@@ -11,6 +11,7 @@ Contains structured Trek Card details for forts:
 
 import json
 from pathlib import Path
+
 from app.tools import haversine_distance, load_town_coordinates
 
 BASE_DIR = Path(__file__).resolve().parent.parent

@@ -8,7 +8,6 @@ from app.article_loader import load_articles
 from app.chunking import create_document_chunks
 from app.vectorstore import VectorStore
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 EVAL_PATH = BASE_DIR / "eval" / "eval_set.json"

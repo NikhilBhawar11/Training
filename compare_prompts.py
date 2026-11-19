@@ -5,7 +5,6 @@ from pathlib import Path
 from app.llm import generate_response
 from app.semantic_search import SemanticSearch
 
-
 BASE_DIR = Path(__file__).resolve().parent
 
 PROMPT_DIR = BASE_DIR / "app" / "prompts"
@@ -105,7 +104,7 @@ Do not invent facts.
         encoding="utf-8"
     )
 
-    print(f"\nEvaluation completed.")
+    print("\nEvaluation completed.")
     print(f"Results saved to: {output_file}")
 
 

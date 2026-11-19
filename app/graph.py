@@ -1,11 +1,15 @@
-from typing import TypedDict, Optional, Any
 import json
-from langgraph.graph import StateGraph, START, END
+from typing import TypedDict
+
 from langgraph.checkpoint.memory import InMemorySaver
-from app.llm import generate_response
+from langgraph.graph import END, START, StateGraph
 from langgraph.types import interrupt
+
+from app.llm import generate_response
 from app.rag import RAGPipeline
 from app.tools import forts_within_km
+
+
 class GraphState(TypedDict, total=False):
 
     # User input

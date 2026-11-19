@@ -1,5 +1,6 @@
 
 from pathlib import Path
+
 from app.semantic_search import SemanticSearch
 
 QUESTIONS = [

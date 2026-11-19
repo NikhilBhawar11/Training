@@ -4,6 +4,7 @@ Saves to assets/checkpoint2_ui.png and ui/screenshot.png.
 """
 
 from pathlib import Path
+
 from PIL import Image, ImageDraw, ImageFont
 
 BASE_DIR = Path(__file__).resolve().parent.parent

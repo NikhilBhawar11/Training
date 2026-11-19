@@ -1,0 +1,127 @@
+================================================================================
+GADKILLE PROJECT - DAY 11 TASK AND CHANGELOG
+================================================================================
+
+1. DAY 11 TASK OVERVIEW
+--------------------------------------------------------------------------------
+The Day 11 goals consisted of two stages:
+
+Stage 1 (S1): Test Suite & Code Quality
+- Create a tests/ directory containing 8+ pytest unit and integration tests:
+  * records: loading, structure, limit, and ID-based lookup.
+  * search: smart_search ranking, empty query handling, and /search endpoint.
+  * /health: status check and project validation.
+  * /ask: RAG answering with a fake LLM and citation sources verification.
+  * agent tools: forts_within_km distance tool and Haversine geodesic calculation.
+  * feedback & trek cards: feedback persistence and 5 mandatory trek fields.
+- Ensure 'ruff check .' passes with 0 errors.
+
+Stage 2 (S2): Containerization & Docker Orchestration
+- Dockerfile: Production-ready Python 3.11-slim container for FastAPI and Streamlit.
+- .dockerignore: Optimized build context ignoring virtual environments, caches, and secrets.
+- docker-compose.yml: Multi-container orchestration for 'api' and 'ui' services.
+- README.md: Added dedicated 'Run with Docker' and 'Testing & Code Quality' sections.
+
+
+2. FILES CREATED & MODIFIED
+--------------------------------------------------------------------------------
+
+A. Test Suite (tests/)
+1. tests/__init__.py
+   - Marks tests directory as a Python package.
+
+2. tests/conftest.py
+   - Provides session-scoped DirectTestClient fixture for fast, deterministic
+     FastAPI testing without OS loopback socket requirements.
+
+3. tests/test_health_and_records.py
+   - test_health_returns_200: Validates GET /health response structure.
+   - test_records_returns_list: Validates GET /records returns fort list.
+   - test_records_limit: Validates query parameter ?limit=3.
+   - test_record_has_required_fields: Validates fort_name and district fields.
+   - test_record_by_id: Validates GET /records/1.
+   - test_record_by_id_not_found: Validates 404 for invalid record ID.
+
+4. tests/test_search.py
+   - test_smart_search_returns_results: Tests TF-IDF fort name/district search.
+   - test_smart_search_empty_query: Tests empty input handling.
+   - test_search_endpoint: Tests GET /search?q=Pune API endpoint.
+
+5. tests/test_ask_fake_llm.py
+   - test_ask_endpoint_with_fake_llm: Tests POST /ask with mocked RAG/LLM.
+   - test_chat_alias_works: Tests POST /chat alias endpoint.
+   - test_rag_pipeline_answer_with_fake_llm: Directly tests RAGPipeline logic.
+   - test_rag_pipeline_empty_context: Tests fallback when context is missing.
+
+6. tests/test_agent_tools.py
+   - test_forts_within_km_kopargaon: Tests proximity search for target persona.
+   - test_forts_within_km_sorted_by_distance: Verifies nearest-first sorting.
+   - test_forts_within_km_unknown_town: Tests ValueError for invalid towns.
+   - test_haversine_zero_distance: Tests identity distance calculation.
+   - test_haversine_known_pair: Tests geodesic accuracy between Kopargaon & Pune.
+
+7. tests/test_feedback_and_trek.py
+   - test_feedback_post_and_get: Tests POST and GET /feedback API persistence.
+   - test_trek_cards_have_required_fields: Verifies the 5 mandatory attributes
+     (height, base_village, time_to_climb, water, night_stay) + attribution.
+   - test_trek_cards_distance_sorted: Verifies trek cards sorting by distance.
+
+B. Configuration & Code Quality
+8. pyproject.toml
+   - Configures Ruff linter rules (E, F, W, I) with line length 120.
+   - Configures per-file ignores for ui/app.py (E402 for dynamic sys.path).
+
+9. app/main.py
+   - Fixed missing interrupts variable in resume_langgraph_agent.
+   - Cleaned up imports and formatting.
+
+10. ui/app.py
+    - Updated API_URL = os.getenv("API_URL", "http://127.0.0.1:8000") to allow
+      Docker service networking (http://api:8000) while maintaining local defaults.
+    - Cleaned up unused imports.
+
+11. requirements.txt
+    - Comprehensive dependency listing categorized by API, UI, LLM, Vector DB,
+      and Testing libraries.
+
+C. Docker Containerization
+12. Dockerfile
+    - Uses python:3.11-slim base image.
+    - Installs curl for container healthchecks.
+    - Copies application files and installs pip dependencies without cache.
+    - Exposes ports 8000 (API) and 8501 (Streamlit UI).
+    - Sets default command to uvicorn app.main:app.
+
+13. .dockerignore
+    - Excludes .venv/, __pycache__/, .git/, .env, task-docs/, and artifacts.
+
+14. docker-compose.yml
+    - Defines 'api' service on port 8000 with healthcheck on /health.
+    - Defines 'ui' service on port 8501 depending on 'api' healthy status.
+    - Mounts ./data:/app/data for persistence of feedback and trek records.
+    - Passes environment variables and credentials from .env.
+
+D. Documentation
+15. README.md
+    - Added 'Run with Docker' section explaining setup, build, and teardown.
+    - Added 'Testing & Code Quality' section for pytest and ruff.
+
+16. day 11
+    - Text summary of all Day 11 tasks and files changed (this file).
+
+
+3. VERIFICATION RESULTS
+--------------------------------------------------------------------------------
+1. Pytest Test Suite:
+   - Command: pytest tests/ -v
+   - Result: 21 passed in 0.23s (Target: 8+ tests) -> PASSED (100%)
+
+2. Ruff Linter:
+   - Command: ruff check .
+   - Result: All checks passed! -> PASSED (0 errors)
+
+3. Docker Configuration:
+   - Files verified: Dockerfile, .dockerignore, docker-compose.yml
+   - Healthcheck: curl -f http://localhost:8000/health
+   - Multi-container architecture: api (port 8000) & ui (port 8501)
+================================================================================

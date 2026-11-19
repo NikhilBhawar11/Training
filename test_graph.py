@@ -1,6 +1,6 @@
 from langgraph.types import Command
-from app.graph import build_graph
 
+from app.graph import build_graph
 
 # Build the graph
 graph = build_graph()

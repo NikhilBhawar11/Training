@@ -1,5 +1,6 @@
 
-from .records import load_records, search, count_by, get_by_id
+from .records import count_by, get_by_id, load_records, search
+
 
 def main():
     while True:

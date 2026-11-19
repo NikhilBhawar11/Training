@@ -1,9 +1,8 @@
 import json
-import re
 
+from app.llm import generate_response
 from app.rag import RAGPipeline
 from app.tools import forts_within_km
-from app.llm import generate_response
 
 
 class GadKilleAgent:

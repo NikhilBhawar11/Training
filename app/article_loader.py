@@ -4,7 +4,6 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 ARTICLE_DIR = BASE_DIR / "data" / "raw" / "articles"
 

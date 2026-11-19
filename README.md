@@ -84,6 +84,50 @@ The application will open in your browser at `http://localhost:8501`.
 
 ---
 
+## Run with Docker
+
+You can launch both the GadKille FastAPI backend and the Streamlit UI with a single command using Docker Compose:
+
+### 1. Configure Environment
+Ensure your `.env` file contains your LLM credentials:
+
+```bash
+cp .env.example .env
+# Set your GROQ_API_KEY or GEMINI_API_KEY
+```
+
+### 2. Start API and UI Services
+
+```bash
+docker compose up --build
+```
+
+- **Streamlit Web UI**: [http://localhost:8501](http://localhost:8501)
+- **FastAPI Swagger API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
+- **API Health Check**: [http://localhost:8000/health](http://localhost:8000/health)
+
+### 3. Stop the Stack
+
+```bash
+docker compose down
+```
+
+---
+
+## Testing & Code Quality
+
+Run the test suite and linter:
+
+```powershell
+# Run 20+ pytest tests
+pytest tests/ -v
+
+# Run Ruff linter (must pass with 0 errors)
+ruff check .
+```
+
+---
+
 ## Project Structure
 
 ```

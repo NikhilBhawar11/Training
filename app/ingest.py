@@ -1,7 +1,7 @@
 
 import json
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, unquote
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 

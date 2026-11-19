@@ -4,7 +4,6 @@ import json
 import math
 from pathlib import Path
 
-
 # Project directory
 BASE_DIR = Path(__file__).resolve().parent.parent
 

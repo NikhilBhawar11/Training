@@ -3,13 +3,10 @@ import json
 import re
 import time
 from pathlib import Path
-from urllib.parse import urlparse, unquote
+from urllib.parse import unquote, urlparse
 
 import requests
 from bs4 import BeautifulSoup
-
-from app import records
-
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

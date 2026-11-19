@@ -16,7 +16,9 @@ if "app" in sys.modules and not hasattr(sys.modules["app"], "__path__"):
     del sys.modules["app"]
 
 import json
+import os
 from datetime import datetime, timezone
+
 import folium
 import requests
 import streamlit as st
@@ -26,14 +28,13 @@ from app.tools import load_town_coordinates
 from app.trek_data import (
     WIKIPEDIA_ATTRIBUTION,
     get_trek_cards_with_distance,
-    load_trek_cards,
 )
 
 # -----------------------------
 # Configuration
 # -----------------------------
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
 FEEDBACK_FILE = Path(__file__).resolve().parent.parent / "data" / "feedback.jsonl"
 
 st.set_page_config(

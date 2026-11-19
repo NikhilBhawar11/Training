@@ -1,23 +1,21 @@
 
 import json
+from datetime import datetime, timezone
 from functools import lru_cache
 from pathlib import Path
-from datetime import datetime, timezone
+from uuid import uuid4
 
 from fastapi import FastAPI, HTTPException, Query
+from langgraph.types import Command
 from pydantic import BaseModel
 
 from app.agent_loop import GadKilleAgent
-from app.records import load_records, get_by_id
-from app.smart_search import smart_search
-from app.semantic_search import SemanticSearch
-from app.rag import RAGPipeline
-
-from uuid import uuid4
-
-from langgraph.types import Command
-
 from app.graph import build_graph
+from app.rag import RAGPipeline
+from app.records import get_by_id, load_records
+from app.semantic_search import SemanticSearch
+from app.smart_search import smart_search
+
 app = FastAPI(title="GadKille API")
 
 
@@ -312,14 +310,14 @@ def resume_langgraph_agent(request: GraphResumeRequest):
 
         # Check if another approval is required
         if "__interrupt__" in result:
-
+            interrupts = result["__interrupt__"]
             return {
                 "status": "approval_required",
                 "thread_id": request.thread_id,
                 "approval_request": [
                     item.value
                     for item in interrupts
-                    ]
+                ]
             }
 
         return {
