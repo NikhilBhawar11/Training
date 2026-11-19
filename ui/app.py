@@ -301,7 +301,7 @@ with tab_map:
     fort_map = folium.Map(
         location=map_center,
         zoom_start=8,
-        tiles="CartoDB positron"
+        tiles="OpenStreetMap"
     )
 
     # User's Town Marker
