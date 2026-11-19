@@ -281,3 +281,4 @@ screenshot_ui = UI_DIR / "screenshot.png"
 img.save(screenshot_assets, "PNG")
 img.save(screenshot_ui, "PNG")
 print(f"Saved screenshots to:\n- {screenshot_assets}\n- {screenshot_ui}")
+

@@ -109,3 +109,4 @@ streamlit run ui/app.py
 2. **Trek Cards**: Navigate to the "Trek Cards" tab, verify height, base village, climb time, water, night stay, and Wikipedia attribution on each card.
 3. **Chat with `/ask` and `/agent`**: Ask a question (e.g. "Can I stay overnight at Harishchandragad?"), verify citations expander, and click 👍 or 👎.
 4. **Feedback Logging**: Check the "Feedback & Activity" tab or inspect `data/feedback.jsonl` to see the recorded feedback.
+

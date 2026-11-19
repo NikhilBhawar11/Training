@@ -1,6 +1,22 @@
+import sys
+from pathlib import Path
+
+# Ensure project root is first in sys.path so the 'app' package is found correctly,
+# and remove 'ui' from sys.path so 'ui/app.py' does not collide with the 'app' package
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+UI_DIR = Path(__file__).resolve().parent
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+while str(UI_DIR) in sys.path:
+    sys.path.remove(str(UI_DIR))
+
+if "app" in sys.modules and not hasattr(sys.modules["app"], "__path__"):
+    del sys.modules["app"]
+
 import json
 from datetime import datetime, timezone
-from pathlib import Path
 import folium
 import requests
 import streamlit as st

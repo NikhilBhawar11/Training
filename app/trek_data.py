@@ -755,3 +755,4 @@ def sync_records_with_trek_cards():
 if __name__ == "__main__":
     save_trek_cards()
     sync_records_with_trek_cards()
+

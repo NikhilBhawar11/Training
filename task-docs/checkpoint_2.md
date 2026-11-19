@@ -106,3 +106,4 @@ streamlit run ui/app.py
 | Trek Cards | Displays height, base village, climb time, water, stay, and attribution | ✅ PASS |
 | UI Screenshot | Embedded in `README.md` and saved to `assets/` and `ui/` | ✅ PASS |
 | Git Tag | Tagged `checkpoint-2` on repository | ✅ PASS |
+
