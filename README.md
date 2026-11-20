@@ -1,9 +1,32 @@
 # GadKille – Maharashtra Fort Explorer
 
+[![CI](https://github.com/NikhilBhawar11/Training/actions/workflows/ci.yml/badge.svg)](https://github.com/NikhilBhawar11/Training/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.162.0-teal.svg)](https://fastapi.tiangolo.com/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.67.0-red.svg)](https://streamlit.io/)
 [![Checkpoint 2](https://img.shields.io/badge/Checkpoint-2%20Live%20Demo-brightgreen.svg)]()
+
+## 🌐 Live Deployment & Health Check
+
+GadKille is deployed publicly on Render and Hugging Face Spaces.
+
+| Component | Platform | Live URL | Public Status |
+| :--- | :--- | :--- | :---: |
+| **Interactive Streamlit UI** | Render | [https://gadkille-ui.onrender.com](https://gadkille-ui.onrender.com) | 🟢 Live |
+| **Streamlit Mirror** | Hugging Face Spaces | [https://huggingface.co/spaces/NikhilBhawar11/GadKille](https://huggingface.co/spaces/NikhilBhawar11/GadKille) | 🟢 Live |
+| **FastAPI Backend** | Render | [https://gadkille-api.onrender.com](https://gadkille-api.onrender.com) | 🟢 Live |
+| **Public Health Check** | Render | [https://gadkille-api.onrender.com/health](https://gadkille-api.onrender.com/health) | 🟢 200 OK |
+| **API Docs (Swagger)** | Render | [https://gadkille-api.onrender.com/docs](https://gadkille-api.onrender.com/docs) | 🟢 Active |
+
+> Complete deployment logs and endpoint verification are tracked in [tracker.md](tracker.md).
+
+### Public Health Check Response
+```json
+{
+  "status": "healthy",
+  "project": "GadKille"
+}
+```
 
 ## Product
 **GadKille** is a Generative AI-powered Maharashtra Fort Explorer and intelligent trek advisor that helps users explore fort history, trekking difficulty, base villages, water sources, night stay options, and accurate distances from their hometown.
