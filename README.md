@@ -6,19 +6,17 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.67.0-red.svg)](https://streamlit.io/)
 [![Checkpoint 2](https://img.shields.io/badge/Checkpoint-2%20Live%20Demo-brightgreen.svg)]()
 
-## 🌐 Live Deployment & Health Check
+## Deployment Status & Health Check
 
-GadKille is deployed publicly on Render and Hugging Face Spaces.
+Deployment configuration is prepared for Render and Hugging Face Spaces. Public cloud deployment is pending.
 
-| Component | Platform | Live URL | Public Status |
+| Component | Platform | Planned URL | Status |
 | :--- | :--- | :--- | :---: |
-| **Interactive Streamlit UI** | Render | [https://gadkille-ui.onrender.com](https://gadkille-ui.onrender.com) | 🟢 Live |
-| **Streamlit Mirror** | Hugging Face Spaces | [https://huggingface.co/spaces/NikhilBhawar11/GadKille](https://huggingface.co/spaces/NikhilBhawar11/GadKille) | 🟢 Live |
-| **FastAPI Backend** | Render | [https://gadkille-api.onrender.com](https://gadkille-api.onrender.com) | 🟢 Live |
-| **Public Health Check** | Render | [https://gadkille-api.onrender.com/health](https://gadkille-api.onrender.com/health) | 🟢 200 OK |
-| **API Docs (Swagger)** | Render | [https://gadkille-api.onrender.com/docs](https://gadkille-api.onrender.com/docs) | 🟢 Active |
-
-> Complete deployment logs and endpoint verification are tracked in [tracker.md](tracker.md).
+| **Interactive Streamlit UI** | Render | [Streamlit UI](https://gadkille-ui.onrender.com) | Pending |
+| **Streamlit Mirror** | Hugging Face Spaces | [GadKille Space](https://huggingface.co/spaces/NikhilBhawar11/GadKille) | Pending |
+| **FastAPI Backend** | Render | [API](https://gadkille-api.onrender.com) | Pending |
+| **Public Health Check** | Render | [API Health](https://gadkille-api.onrender.com/health) | Pending |
+| **API Docs (Swagger)** | Render | [API Docs](https://gadkille-api.onrender.com/docs) | Pending |
 
 ### Public Health Check Response
 ```json
