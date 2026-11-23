@@ -144,7 +144,10 @@ def semantic_search(
 
 @lru_cache
 def get_rag_pipeline():
-    return RAGPipeline(top_k=3)
+    return RAGPipeline(
+        top_k=3,
+        search_engine=get_semantic_search()
+    )
 
 
 @app.post("/chat", response_model=ChatResponse)
