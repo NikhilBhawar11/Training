@@ -110,7 +110,8 @@ def get_semantic_search():
 @lru_cache
 def get_agent():
     from app.agent_loop import GadKilleAgent
-    return GadKilleAgent()
+
+    return GadKilleAgent(rag=get_rag_pipeline())
 
 
 @lru_cache

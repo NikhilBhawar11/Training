@@ -1,5 +1,5 @@
 services:
-  # 1. FastAPI Backend Service (Serves /health, /ask, /records, /feedback)
+  # 1. FastAPI Backend Service (Serves /health, /ask, /records, /search, /feedback)
   - type: web
     name: gadkille-api
     runtime: python
@@ -17,6 +17,12 @@ services:
         sync: false
       - key: GEMINI_API_KEY
         sync: false
+      - key: EMBEDDING_PROVIDER
+        value: gemini
+      - key: EMBEDDING_MODEL
+        value: gemini-embedding-001
+      - key: EMBEDDING_DIMENSIONS
+        value: 768
 
   # 2. Streamlit Frontend UI Service (Map, Trek Cards, AI Chat)
   - type: web

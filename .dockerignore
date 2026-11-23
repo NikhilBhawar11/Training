@@ -24,6 +24,7 @@ __pycache__/
 # Backups & evaluations
 *.before_coordinates.json
 data/eval_chroma/
+data/chroma_db/
 
 # Assets & documentation artifacts not needed at runtime
 assets/

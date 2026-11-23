@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Optional Local Embedding / Offline Development
+sentence-transformers>=2.5.0
+chromadb>=0.4.24
