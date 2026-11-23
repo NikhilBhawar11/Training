@@ -10,9 +10,13 @@ from app.semantic_search import SemanticSearch
 
 class RAGPipeline:
 
-    def __init__(self, top_k=3, similarity_threshold=None):
-
-        self.search_engine = SemanticSearch()
+    def __init__(
+        self,
+        top_k=3,
+        similarity_threshold=None,
+        search_engine=None
+    ):
+        self.search_engine = search_engine or SemanticSearch()
         self.top_k = top_k
 
         self.similarity_threshold = (
@@ -23,10 +27,7 @@ class RAGPipeline:
 
         # Load system prompt
         base_dir = Path(__file__).resolve().parent.parent
-
-        prompt_path = (
-            base_dir / "app" / "prompts" / "system.txt"
-        )
+        prompt_path = base_dir / "app" / "prompts" / "system.txt"
 
         self.system_prompt = prompt_path.read_text(
             encoding="utf-8"
