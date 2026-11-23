@@ -6,14 +6,9 @@ from pathlib import Path
 from uuid import uuid4
 
 from fastapi import FastAPI, HTTPException, Query
-from langgraph.types import Command
 from pydantic import BaseModel
 
-from app.agent_loop import GadKilleAgent
-from app.graph import build_graph
-from app.rag import RAGPipeline
 from app.records import get_by_id, load_records
-from app.semantic_search import SemanticSearch
 from app.smart_search import smart_search
 
 app = FastAPI(title="GadKille API")
@@ -105,17 +100,24 @@ def search_records(q: str):
 # Semantic Search
 # -----------------------------
 
+
 @lru_cache
 def get_semantic_search():
+    from app.semantic_search import SemanticSearch
     return SemanticSearch()
+
 
 @lru_cache
 def get_agent():
+    from app.agent_loop import GadKilleAgent
     return GadKilleAgent()
+
 
 @lru_cache
 def get_langgraph_agent():
+    from app.graph import build_graph
     return build_graph()
+
 
 
 @app.get("/search/semantic")
@@ -144,6 +146,8 @@ def semantic_search(
 
 @lru_cache
 def get_rag_pipeline():
+    from app.rag import RAGPipeline
+
     return RAGPipeline(
         top_k=3,
         search_engine=get_semantic_search()
@@ -293,10 +297,13 @@ def run_langgraph_agent(request: GraphRequest):
             detail=str(error)
         )
 
+
 @app.post("/agent/graph/resume")
 def resume_langgraph_agent(request: GraphResumeRequest):
 
     try:
+        from langgraph.types import Command
+
         graph = get_langgraph_agent()
 
         config = {
@@ -331,7 +338,6 @@ def resume_langgraph_agent(request: GraphResumeRequest):
         }
 
     except ValueError as error:
-
         raise HTTPException(
             status_code=400,
             detail=str(error)
