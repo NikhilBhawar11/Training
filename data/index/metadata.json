@@ -3,7 +3,7 @@
   "provider": "gemini",
   "model": "gemini-embedding-001",
   "dimensions": 768,
-  "count": 344,
+  "count": 386,
   "documents": [
     {
       "id": "0b5b8873a96657b659b6b3efbbf11a4c27dbb4089933f57c8ff78c82ae13fc4d",
@@ -3443,6 +3443,426 @@
         "page": 1,
         "title": "Vishalgad",
         "chunk_index": 2
+      }
+    },
+    {
+      "id": "81b5ae863715f121eeb1ebd4e03c7b467aacf8f99176fb2a124fad58af56cd34",
+      "text": "Fort name: Harishchandragad. District: Ahmednagar. Height: 4,670 ft (1,423 m). Base village: Pachnai / Khireshwar. Time to climb: 2.5 - 3 hours (Pachnai) / 5 - 6 hours (Khireshwar). Water information: Potable sweet water available in temple cisterns and Kedareshwar cave year-round.. Night stay information: Harishchandreshwar temple caves comfortably accommodate 35-40 trekkers; camping permitted.. Difficulty: Moderate to Strenuous. Highlights: Konkan Kada, Kedareshwar Cave Temple, Taramati Peak",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Harishchandragad",
+        "page": 1,
+        "title": "Harishchandragad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "90c1af3f736eac040eb084fef906b93ab767d80de9b7ca456207361c4cb20c41",
+      "text": "Fort name: Ankai Fort. District: Nashik. Height: 3,182 ft (970 m). Base village: Ankai. Time to climb: 1.5 - 2 hours. Water information: Rock-cut water cisterns on top; carry drinking water for trekking.. Night stay information: Caves on the fort provide shelter for 20 trekkers; homestays available in base village.. Difficulty: Easy to Moderate. Highlights: Twin fort with Tankai, ancient rock-cut Jain caves, Manmad view",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Ankai_Fort",
+        "page": 1,
+        "title": "Ankai Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "6b08638a2971b9fc47e9803bb583e6488d886f89ad0a5a5664881aa08c8300e8",
+      "text": "Fort name: Patta Fort. District: Ahmednagar. Height: 4,562 ft (1,390 m). Base village: Kokanwadi / Pattawadi. Time to climb: 1.5 - 2 hours. Water information: Freshwater cisterns on the plateau; filter before drinking or carry water.. Night stay information: Patta temple and ashram atop the fort accommodate 25-30 people comfortably.. Difficulty: Moderate. Highlights: Vishramgad heritage where Chhatrapati Shivaji Maharaj rested, scenic plateau",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Patta_Fort",
+        "page": 1,
+        "title": "Patta Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "17924b5ca6df38f250ed3e9467349c6165ebb43c0c911734fd1b469cf5d479cd",
+      "text": "Fort name: Bitangad. District: Ahmednagar. Height: 3,560 ft (1,085 m). Base village: Maldara. Time to climb: 1 - 1.5 hours. Water information: Cistern at the base; water is scarce on top, carry 2-3 liters of water.. Night stay information: Small summit cave shelters 4-5 trekkers; base village Maldara homestays recommended.. Difficulty: Moderate (technical rock scramble at top). Highlights: Pinnacle view, peaceful offbeat trail near Kalsubai range",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Bitangad",
+        "page": 1,
+        "title": "Bitangad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "903edd2f7ea9dbaf1b1bf710c7f342b80b1d70cfbfddb5e073b650f9015ac37d",
+      "text": "Fort name: Alang. District: Nashik. Height: 4,852 ft (1,479 m). Base village: Ambewadi / Udadhawane. Time to climb: 4 - 5 hours. Water information: 11 rock-cut water cisterns; water available year-round.. Night stay information: Spacious summit cave accommodates 35-40 trekkers comfortably.. Difficulty: Challenging / Technical (ropes & climbing harness required). Highlights: Part of prestigious AMK (Alang-Madan-Kulang) trek; dramatic cliffs",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Alang_Fort",
+        "page": 1,
+        "title": "Alang",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "d6afc4d6cc42109949964b416238e37a6a201ad07cb1b40e2f1e1dc0f94ed048",
+      "text": "Fort name: Kulang. District: Nashik. Height: 4,822 ft (1,470 m). Base village: Kulangwadi. Time to climb: 3.5 - 4 hours. Water information: Potable freshwater cisterns available on top year-round.. Night stay information: Huge rock-cut cave on summit comfortably accommodates 40-50 trekkers.. Difficulty: Challenging (steep continuous stone steps). Highlights: Highest climb from base to summit in Maharashtra Sahyadris",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Kulang_Fort",
+        "page": 1,
+        "title": "Kulang",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "7ff88e70558bf5cfdb6204515f348a3e27d6935efa02b276ee6e60b6d91d954e",
+      "text": "Fort name: Harihar Fort. District: Nashik. Height: 3,676 ft (1,120 m). Base village: Nirgudpada / Harshewadi. Time to climb: 2 - 2.5 hours. Water information: Water cisterns near summit temple; carry clean drinking water.. Night stay information: Small cave accommodates 5-6 people; abundant local homestays in Nirgudpada.. Difficulty: Moderate to Thrilling (80-degree vertical rock-cut stairs). Highlights: Iconic Scottish-gothic rock staircase with carved thumb notches",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Harihar_fort",
+        "page": 1,
+        "title": "Harihar Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "0dd5dfe9a5ff4539e4dfa877bf69a78c63400b4ed00baf54ff2a415a88b9af25",
+      "text": "Fort name: Salher. District: Nashik. Height: 5,140 ft (1,567 m). Base village: Salher / Waghambe. Time to climb: 2.5 - 3 hours. Water information: Gangasagar lake and clean rock-cut water cisterns on top.. Night stay information: Parshuram temple and caves at summit accommodate 35+ trekkers.. Difficulty: Moderate. Highlights: Highest fort in Maharashtra; site of legendary Maratha-Mughal battle",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Salher",
+        "page": 1,
+        "title": "Salher",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "cb098a7b42ba231df29e8d5fa134603cea95b3e79dec42cae33f0e63326390ff",
+      "text": "Fort name: Ramsej. District: Nashik. Height: 3,273 ft (998 m). Base village: Peth / Bhorgad. Time to climb: 1 - 1.5 hours. Water information: Rock-cut water tanks on top; carry potable drinking water.. Night stay information: Ram Mandir cave on the fort can accommodate 15-20 trekkers.. Difficulty: Easy to Moderate. Highlights: Historic fortress that resisted Mughal siege for 6 years",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Ramsej",
+        "page": 1,
+        "title": "Ramsej",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "51e2d433a6e66abe9be898d163027732d2b155afd48f16a48f6efa2e4a5af2fd",
+      "text": "Fort name: Ratangad. District: Ahmednagar. Height: 4,255 ft (1,297 m). Base village: Ratanwadi. Time to climb: 2.5 - 3 hours. Water information: Sweet potable water available in cisterns near the cave throughout the year.. Night stay information: Two natural rock caves on summit accommodate 25-30 people.. Difficulty: Moderate (ladder sections on cliffs). Highlights: Nedhe (natural 'eye of the needle' rock cavity), Amruteshwar Temple",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Ratangad",
+        "page": 1,
+        "title": "Ratangad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "f7d841f84fe6fbfcb88c43093fe612ddb844289567da54c49d180b29a4330add",
+      "text": "Fort name: Anjaneri. District: Nashik. Height: 4,264 ft (1,300 m). Base village: Anjaneri village (near Trimbakeshwar). Time to climb: 2 - 2.5 hours. Water information: Water ponds and natural springs on plateau; water stalls during peak season.. Night stay information: Anjani Mata temple atop plateau can host 20 people; stay also in base village.. Difficulty: Easy to Moderate. Highlights: Birthplace of Lord Hanuman, rare wildflowers, Jain temple ruins",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Anjaneri",
+        "page": 1,
+        "title": "Anjaneri",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "e02dd86e9867a747855eb5f932b7996de7dba46a575c4f19edda1c5d43bbb6b0",
+      "text": "Fort name: Shivneri. District: Pune. Height: 3,500 ft (1,067 m). Base village: Junnar. Time to climb: 1 - 1.5 hours. Water information: Badami Talav, Ganga-Jamuna cisterns; bottled water available.. Night stay information: Overnight stay on fort restricted by ASI; abundant lodging in Junnar town.. Difficulty: Easy (well-maintained stone stairs through 7 gates). Highlights: Birthplace of Chhatrapati Shivaji Maharaj, Koli soldier memorial",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Shivneri",
+        "page": 1,
+        "title": "Shivneri",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "02b4b03140682734f50b9264c347bb29b01ec3622798c82c25329e10c87aab50",
+      "text": "Fort name: Kunjargad. District: Ahmednagar. Height: 3,700 ft (1,128 m). Base village: Kothale / Mulshet. Time to climb: 1.5 - 2 hours. Water information: Water cisterns on top; scarce in summer, carry water.. Night stay information: Small cave accommodates 5-6 trekkers; homestay in Kothale village.. Difficulty: Moderate. Highlights: Panoramic views of Harishchandragad, Mandvi river valley",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/List_of_forts_in_Maharashtra",
+        "page": 1,
+        "title": "Kunjargad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "d452d238cf0a804744615935c3f4e3bcae717c67515655ca140a54e00038c63f",
+      "text": "Fort name: Pabargad. District: Ahmednagar. Height: 3,800 ft (1,158 m). Base village: Guhire. Time to climb: 2 - 2.5 hours. Water information: Water cisterns near rock steps; carry clean drinking water.. Night stay information: Open camping on plateau or base village homestay in Guhire.. Difficulty: Moderate. Highlights: Offbeat fort overlooking Bhandardara waters and Kalsubai ridge",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/List_of_forts_in_Maharashtra",
+        "page": 1,
+        "title": "Pabargad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "1a79d6ee6c4ee5d0745fcccf3465764c6b5f46344f421527258f2209a4665a5e",
+      "text": "Fort name: Achala Fort. District: Nashik. Height: 4,050 ft (1,234 m). Base village: Dagad Pimpri. Time to climb: 1.5 - 2 hours. Water information: Water tanks exist on fort but lack potable water; carry own water.. Night stay information: Villagers in Dagad Pimpri base village provide warm meals and night stay.. Difficulty: Moderate. Highlights: Twin sentinel with Ahivant in the Satmala range",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Achala_Fort",
+        "page": 1,
+        "title": "Achala Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "7159d777d1201a1dfaebcaaed578ed16c041082b2600abd70177d2a1e70eb8bd",
+      "text": "Fort name: Ahivant Fort. District: Nashik. Height: 4,035 ft (1,230 m). Base village: Daregaon / Daregaonwani. Time to climb: 1.5 - 2 hours. Water information: Water cisterns on the expansive plateau; carry drinking water.. Night stay information: Camping on the flat plateau or homestay in Daregaon base village.. Difficulty: Moderate. Highlights: Massive natural flat plateau, historic triple gateway ruins",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Ahivant_Fort",
+        "page": 1,
+        "title": "Ahivant Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "6d86e8cda8b7ab2bf662db57f580d0284f77d753b6bd2128bdd14471324c8e50",
+      "text": "Fort name: Bhairavgad. District: Ahmednagar. Height: 3,750 ft (1,143 m). Base village: Moroshi (Malshej Ghat). Time to climb: 2.5 - 3 hours. Water information: Rock-cut water cisterns at top; carry sufficient drinking water.. Night stay information: Rock-cut cave at the summit accommodates 10-15 trekkers.. Difficulty: Thrilling (steep rock wall with carved steps). Highlights: Spectacular needle pinnacle rising directly over Malshej Ghat",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Bhairavgad_(fort)",
+        "page": 1,
+        "title": "Bhairavgad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "73c6fd73a91c47a937f255260ba2fb681a8778147350eed8c16b1c06c8120a50",
+      "text": "Fort name: Daulatabad Fort. District: Chhatrapati Sambhajinagar. Height: 2,750 ft (838 m). Base village: Daulatabad. Time to climb: 1.5 - 2 hours. Water information: Bottled water and drinking facilities available all along the route.. Night stay information: Monument closes at sunset; hotels in Chhatrapati Sambhajinagar city.. Difficulty: Easy to Moderate (walk-in heritage fort with stairs). Highlights: Impenetrable moat, Chand Minar, pitch-black Andhari maze passage",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
+        "page": 1,
+        "title": "Daulatabad Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "9dd074867024d68790c1c4c80e1c038540b82d0eaac8f5da98ba4efd6cbf1a53",
+      "text": "Fort name: Antur Fort. District: Chhatrapati Sambhajinagar. Height: 2,700 ft (823 m). Base village: Nagapur (Kannad taluka). Time to climb: 1 - 1.5 hours. Water information: Rock-cut water tanks near gates; carry drinking water.. Night stay information: Dargah and shelter on fort accommodate small groups; village stay in Nagapur.. Difficulty: Easy to Moderate. Highlights: Deep forest surrounding Gautala Wildlife Sanctuary",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Antur_Fort",
+        "page": 1,
+        "title": "Antur Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "96f8080dc0081e0f73ef29c0c13e36715177299d9f2c79b4a0b97601e774a89d",
+      "text": "Fort name: Laling. District: Dhule. Height: 2,050 ft (625 m). Base village: Laling. Time to climb: 45 min - 1 hour. Water information: Cisterns near ruined palace; carry bottled water.. Night stay information: Hemadpanthi temple at base or hotels in nearby Dhule city.. Difficulty: Easy. Highlights: Faruqi dynasty stronghold commanding the Mumbai-Agra pass",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Laling_fort",
+        "page": 1,
+        "title": "Laling",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "d42a6403e9e462b8b8bc024aca7c0389b9c80cc978d96ec87e48064f01320b1f",
+      "text": "Fort name: Bhamer. District: Dhule. Height: 2,400 ft (732 m). Base village: Bhamer. Time to climb: 1 - 1.5 hours. Water information: Rock-cut caves have water cisterns; carry drinking water.. Night stay information: More than 80 ancient rock-cut caves provide shelter for 25+ trekkers.. Difficulty: Easy to Moderate. Highlights: Remarkable cave complex and rock inscriptions",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Bhamer_Dhule",
+        "page": 1,
+        "title": "Bhamer",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "9c7048b328649fd9d02b5130372e558cd0897d52bebe264432f8a04e8103cf93",
+      "text": "Fort name: Lohagad. District: Pune. Height: 3,389 ft (1,033 m). Base village: Lohagadwadi (near Malavli / Lonavala). Time to climb: 1 - 1.5 hours. Water information: Freshwater cisterns on the plateau; water stalls during weekends.. Night stay information: South-side caves shelter small groups; villagers provide homestays and food.. Difficulty: Easy (wide stone steps). Highlights: Vinchukata (scorpion tail) ridge, 4 monumental gates, monsoon mist",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Lohagad",
+        "page": 1,
+        "title": "Lohagad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "cd5825ec22bc97e15f9e10873ed939377762a2562ee297d0be81fe74cf723985",
+      "text": "Fort name: Sinhagad. District: Pune. Height: 4,304 ft (1,312 m). Base village: Donje / Atkarwadi. Time to climb: 1.5 - 2 hours (or drive up via road). Water information: Famous 'Dev Taki' naturally cooled potable sweet water year-round.. Night stay information: Overnight stay on top restricted; daytime huts serve pithla-bhakri.. Difficulty: Easy to Moderate. Highlights: Tanaji Malusare memorial, Kalyan Darwaja, Dev Taki spring",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Sinhagad",
+        "page": 1,
+        "title": "Sinhagad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "9cd951fbb671c6316a95d0ccdea0f843bfbba26bf94663877fed7c7cb45a91b3",
+      "text": "Fort name: Rajgad. District: Pune. Height: 4,514 ft (1,376 m). Base village: Gunjavane / Pali. Time to climb: 2.5 - 3 hours. Water information: Padmavati tank and Sanjivani water cisterns provide good potable water.. Night stay information: Padmavati temple accommodates 50+ trekkers comfortably.. Difficulty: Moderate. Highlights: First capital of Maratha Empire for 26 years; Suvela & Sanjivani Machis",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Rajgad",
+        "page": 1,
+        "title": "Rajgad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "69cd5b1c416f1ec72428e57b496970e97c46bea38940a2181cb6103b9b573e03",
+      "text": "Fort name: Torna. District: Pune. Height: 4,603 ft (1,403 m). Base village: Velhe. Time to climb: 3 - 3.5 hours. Water information: Water tanks near Menghai Devi temple and Budhla Machi; filter before use.. Night stay information: Menghai Devi temple atop fort accommodates 25-30 trekkers.. Difficulty: Moderate to Strenuous. Highlights: First fort captured by Chhatrapati Shivaji Maharaj at age 16; Budhla Machi",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Torna_Fort",
+        "page": 1,
+        "title": "Torna",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "f7ba1874b039fbd8f2f465070908f91446be70a400847ea409b88f6c335141ff",
+      "text": "Fort name: Raigad. District: Raigad. Height: 2,700 ft (820 m). Base village: Pachad. Time to climb: 2 - 2.5 hours (or 5 minutes via Raigad Ropeway). Water information: Ganga Sagar lake and potable water dispensers at summit.. Night stay information: MTDC resort and guest cottages at summit provide comfortable rooms.. Difficulty: Moderate (or Easy via Ropeway). Highlights: Capital of the Maratha Empire, Coronation throne site, Hirakani Buruj",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Raigad_fort",
+        "page": 1,
+        "title": "Raigad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "68b10feb33846b593ed93f0b92a5d267b827e456f9dd3f4687905a4f2c7115fa",
+      "text": "Fort name: Pratapgad. District: Satara. Height: 3,556 ft (1,084 m). Base village: Wada (near Mahabaleshwar). Time to climb: 45 min - 1 hour (vehicle accessible to base gate). Water information: Multiple potable water stalls and restaurants at base and top.. Night stay information: Hotels and resorts in Mahabaleshwar (20 km) or base village homestays.. Difficulty: Easy. Highlights: Site of historic encounter between Shivaji Maharaj and Afzal Khan, Bhavani Temple",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Pratapgad",
+        "page": 1,
+        "title": "Pratapgad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "deb33ea4dd4364cc5cea3211ee48561793e3a6d6bd492b13be70bdf11df97b79",
+      "text": "Fort name: Panhala. District: Kolhapur. Height: 2,772 ft (845 m). Base village: Panhala hill station. Time to climb: Road access directly to fort; 1 hour walk. Water information: Municipal water and Sadhana tanks readily available.. Night stay information: Numerous hill station hotels, MTDC resort, and homestays.. Difficulty: Easy. Highlights: Sajja Kothi, Teen Darwaza, starting point of legendary Pawan Khind trek",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Panhala_Fort",
+        "page": 1,
+        "title": "Panhala",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "dff1530f715ef789c18cbdb8d0711db929c619f09f14e733c2045891734d89df",
+      "text": "Fort name: Vishalgad. District: Kolhapur. Height: 3,124 ft (952 m). Base village: Gajapur. Time to climb: 1 - 1.5 hours. Water information: Wells and potable tanks near the dargah and temple.. Night stay information: Dargah guesthouses and village homestays.. Difficulty: Easy to Moderate. Highlights: Historic terminus of Baji Prabhu Deshpande's Pawan Khind sacrifice",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Vishalgad",
+        "page": 1,
+        "title": "Vishalgad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "6a9749e2f6b7f8c367e50e096e87d0b40aff067a76271bf03a8623bd58b4412a",
+      "text": "Fort name: Kharda. District: Ahmednagar. Height: 2,150 ft (655 m). Base village: Kharda town. Time to climb: 30 minutes (plain land fortress). Water information: Town amenities available; carry water bottles.. Night stay information: Hotels and lodges in Kharda town or Jamkhed.. Difficulty: Easy (walk-in ground fort). Highlights: Shivpattana fort; site of historic 1795 Battle of Kharda against the Nizam",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Kharda",
+        "page": 1,
+        "title": "Kharda",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "ea1d960d571f93752e37aa639cc90761ab0242faefe59e4523af74bbd1083035",
+      "text": "Fort name: Thalner. District: Dhule. Height: 600 ft (183 m). Base village: Thalner. Time to climb: 30 minutes. Water information: Village facilities available.. Night stay information: Stay in Shirpur (15 km) or Dhule.. Difficulty: Easy. Highlights: Ancient capital of the Faruqi kings situated on the banks of Tapi river",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Thalner",
+        "page": 1,
+        "title": "Thalner",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "6534509545448a09a0ee7acde853cbda9ab31ab652c99c7e128f27662aa4a0c4",
+      "text": "Fort name: Bhudargad. District: Kolhapur. Height: 3,200 ft (975 m). Base village: Pushpanagar. Time to climb: 1 - 1.5 hours. Water information: Bhairavnath temple water tank.. Night stay information: Bhairavnath temple hall accommodates 20 trekkers.. Difficulty: Easy to Moderate. Highlights: Scenic southern Maharashtra tableland fort",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Bhudargad",
+        "page": 1,
+        "title": "Bhudargad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "d88cf1302843ea41870a39b51eaba8970fcdd32f549016c061855c0f2be12604",
+      "text": "Fort name: Pargadh. District: Kolhapur. Height: 2,425 ft (739 m). Base village: Malatwadi / Pargadh. Time to climb: 1.5 - 2 hours. Water information: Freshwater tanks and active village wells on top.. Night stay information: Maruti temple on fort or homestays with warm local villagers.. Difficulty: Moderate. Highlights: Border fortress with Goa surrounded by thick tropical jungle",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Pargadh",
+        "page": 1,
+        "title": "Pargadh",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "b2b3d3bcca95b3698cc3e1f5f7692e68c2d426134534926b84a87d6709a20613",
+      "text": "Fort name: Akola Fort. District: Akola. Height: 925 ft (282 m). Base village: Akola city. Time to climb: 30 minutes (urban ground fort). Water information: City amenities available.. Night stay information: Hotels in Akola city.. Difficulty: Easy. Highlights: Asadgad fortress built on the Morna River",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Akola_Fort",
+        "page": 1,
+        "title": "Akola Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "4791133d7b0ec30d39706bf5bce358cb218f50a149b87f507b9c7b6bc1aa2f26",
+      "text": "Fort name: Balapur. District: Akola. Height: 950 ft (290 m). Base village: Balapur town. Time to climb: 30 minutes. Water information: Town amenities available.. Night stay information: Stay in Balapur or Akola city.. Difficulty: Easy. Highlights: Mughal river confluence fortress and Chhatri of Mirza Raja Jai Singh",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Balapur_Fort",
+        "page": 1,
+        "title": "Balapur",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "d6a7c06d844e4066dcf08ae597af3765af7534402c61514b26dd3397cb7e78d0",
+      "text": "Fort name: Gawilghur. District: Amravati. Height: 3,590 ft (1,094 m). Base village: Chikhaldara. Time to climb: 1 - 1.5 hours. Water information: Ancient water tanks on fort; carry drinking water.. Night stay information: Hotels and resorts in Chikhaldara hill station.. Difficulty: Easy to Moderate. Highlights: Site of Wellington's 1803 siege, Melghat tiger reserve views",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Gawilghur",
+        "page": 1,
+        "title": "Gawilghur",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "522a2e10b2846f49a06fab59e91892218489bca0371ec248fe2045181a39c491",
+      "text": "Fort name: Ballarpur Fort. District: Chandrapur. Height: 700 ft (213 m). Base village: Ballarpur. Time to climb: 30 minutes. Water information: Town amenities available.. Night stay information: Hotels in Ballarpur or Chandrapur city.. Difficulty: Easy. Highlights: Gond king Khandkya Ballal Sah heritage along Wardha River",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Ballarpur_Fort",
+        "page": 1,
+        "title": "Ballarpur Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "55bee44d74526ab683a43731afd756c71928291c58e25d1539dd734e4e641b2b",
+      "text": "Fort name: Manikgad. District: Chandrapur. Height: 1,660 ft (506 m). Base village: Vihirgaon. Time to climb: 2 hours. Water information: Cisterns on fort; carry own drinking water.. Night stay information: Wilderness camping; local guide recommended due to wildlife.. Difficulty: Moderate (dense forest trail). Highlights: Ancient Gond hill fortress hidden within teak forests",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Manikgad",
+        "page": 1,
+        "title": "Manikgad",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "5ef1cb94ed3880ae4769ad102d02019262d072a28057cc2caf6f38cc30feaa06",
+      "text": "Fort name: Udgir. District: Latur. Height: 2,070 ft (631 m). Base village: Udgir town. Time to climb: 45 minutes. Water information: Tanks near samadhi; town facilities.. Night stay information: Hotels in Udgir town.. Difficulty: Easy. Highlights: Samadhi of Swami Udaygir, 1760 Battle of Udgir monument",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Udgir_Fort",
+        "page": 1,
+        "title": "Udgir",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "13d7c9b6289036b9f37982789f7a263252af0d1f4c529d98afd38f70494bdc16",
+      "text": "Fort name: Bombay Castle. District: Mumbai City. Height: 50 ft (15 m). Base village: Fort, South Mumbai. Time to climb: Walk-in heritage monument. Water information: City amenities available.. Night stay information: Hotels in Mumbai.. Difficulty: Easy (heritage walk). Highlights: INS Angre naval compound, oldest British stone fort in Mumbai",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Bombay_Castle",
+        "page": 1,
+        "title": "Bombay Castle",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "eaff147aaf964dd060d81d54ba158d71e711f20ebbb3cd2e4a406a40a9700de9",
+      "text": "Fort name: Dongri Fort. District: Mumbai City. Height: 100 ft (30 m). Base village: Dongri / Mira-Bhayandar. Time to climb: 20 minutes. Water information: Suburban amenities available.. Night stay information: Hotels in Mumbai / Thane.. Difficulty: Easy. Highlights: Dharavi Devi temple, coastal sea views over Vasai creek",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Dongri_Fort",
+        "page": 1,
+        "title": "Dongri Fort",
+        "chunk_index": 0
+      }
+    },
+    {
+      "id": "f26302ef12a8b111ee24046a0fe897a80905fc8615761bf23e96a5fed1d8b05e",
+      "text": "Fort name: Ahmednagar Fort. District: Ahmednagar. Height: 2,130 ft (650 m). Base village: Ahmednagar city. Time to climb: 30 minutes. Water information: City amenities available.. Night stay information: Hotels in Ahmednagar city.. Difficulty: Easy. Highlights: Discovery of India written here by Nehru; historic 24 bastions",
+      "metadata": {
+        "source": "https://en.wikipedia.org/wiki/Ahmednagar_Fort",
+        "page": 1,
+        "title": "Ahmednagar Fort",
+        "chunk_index": 0
       }
     }
   ]

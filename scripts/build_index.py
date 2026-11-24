@@ -26,6 +26,7 @@ from app.embed import get_embedding_provider  # noqa: E402
 from app.vectorstore import VectorStore  # noqa: E402
 
 DEFAULT_ARTICLES_FILE = PROJECT_ROOT / "data" / "raw" / "extracted_articles.json"
+DEFAULT_TREK_CARDS_FILE = PROJECT_ROOT / "data" / "trek_cards.json"
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "data" / "index"
 
 
@@ -46,6 +47,39 @@ def load_articles(file_path: Path):
         })
     return documents
 
+
+def load_trek_cards(file_path: Path):
+    """Convert structured trek cards into searchable documents."""
+    if not file_path.exists():
+        print(f"Trek cards file not found: {file_path}")
+        return []
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        trek_cards = json.load(f)
+
+    documents = []
+
+    for card in trek_cards:
+        fields = [
+            f"Fort name: {card.get('fort_name', 'Unknown')}",
+            f"District: {card.get('district', 'Unknown')}",
+            f"Height: {card.get('height', card.get('height_ft', 'Unknown'))}",
+            f"Base village: {card.get('base_village', 'Unknown')}",
+            f"Time to climb: {card.get('time_to_climb', 'Unknown')}",
+            f"Water information: {card.get('water', 'Not available')}",
+            f"Night stay information: {card.get('night_stay', 'Not available')}",
+            f"Difficulty: {card.get('difficulty', 'Unknown')}",
+            f"Highlights: {card.get('highlights', 'Not available')}",
+        ]
+
+        documents.append({
+            "text": ". ".join(fields),
+            "title": card.get("fort_name", "Unknown Fort"),
+            "source": card.get("source_url", "trek_cards.json"),
+            "page": 1,
+        })
+
+    return documents
 
 def build_index(
     articles_file: Path = DEFAULT_ARTICLES_FILE,
@@ -85,7 +119,16 @@ def build_index(
             print(f"Existing index could not be read ({e}). Rebuilding...")
 
     print(f"Loading articles from: {articles_file}")
+
     documents = load_articles(articles_file)
+
+    print("Loading structured trek cards...")
+    trek_documents = load_trek_cards(DEFAULT_TREK_CARDS_FILE)
+
+    documents.extend(trek_documents)
+
+    print(f"Total Wikipedia articles: {len(documents) - len(trek_documents)}")
+    print(f"Total trek cards: {len(trek_documents)}")
     print(f"Total documents loaded: {len(documents)}")
 
     chunks = create_document_chunks(documents)

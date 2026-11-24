@@ -6,11 +6,14 @@ ensuring fast, reliable tests without OS loopback socket requirements.
 
 import pytest
 from fastapi import HTTPException
+from pydantic import ValidationError
 
 from app.main import (
     ChatRequest,
     FeedbackRequest,
     chat,
+    clear_cache,
+    get_cache_stats,
     get_feedback,
     get_record,
     get_records,
@@ -41,6 +44,9 @@ class DirectTestClient:
 
         if path == "/health":
             return MockResponse(200, health())
+
+        elif path == "/cache/stats":
+            return MockResponse(200, get_cache_stats())
 
         elif path == "/records":
             limit = int(query_params.get("limit", 20))
@@ -73,14 +79,21 @@ class DirectTestClient:
                 req = ChatRequest(**payload)
                 resp = chat(req)
                 return MockResponse(200, resp.model_dump())
+            except ValidationError as exc:
+                return MockResponse(422, {"detail": exc.errors()})
             except HTTPException as exc:
                 return MockResponse(exc.status_code, {"detail": exc.detail})
+
+        elif url == "/cache/clear":
+            return MockResponse(200, clear_cache())
 
         elif url == "/feedback":
             try:
                 req = FeedbackRequest(**payload)
                 resp = save_feedback(req)
                 return MockResponse(200, resp)
+            except ValidationError as exc:
+                return MockResponse(422, {"detail": exc.errors()})
             except HTTPException as exc:
                 return MockResponse(exc.status_code, {"detail": exc.detail})
 
