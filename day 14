@@ -1,0 +1,40 @@
+================================================================================
+GADKILLE PROJECT - DAY 14 TASK OVERVIEW AND FINAL SUBMISSION
+================================================================================
+
+1. DAY 14 TASK OVERVIEW
+--------------------------------------------------------------------------------
+The Day 14 goals consisted of:
+- Interview Guide & Technical Deep-Dive (docs/interview.md):
+  * 60-second pitch for GadKille.
+  * Answers to 10 likely technical and architectural interview questions.
+  * The Interview Story (Hardest Technical Problem):
+    - Messy, uneven Wikipedia fort articles (infobox format discrepancies, elevations in feet vs metres).
+    - Entity collisions & duplicate names (e.g. two Bhairavgads).
+    - Missing trek details and trail times.
+    - Solution: Unit normalization engine, coordinate-based geospatial deduplication, and strict grounded RAG guardrails that explicitly state 'This information is not present in the article' instead of hallucinating trek times.
+- Progress Tracking (PROGRESS.md):
+  * Complete 14-day curriculum checklist.
+  * Every milestone and deliverable marked as [x] CLOSED / COMPLETED.
+- Demo Rehearsal Twice (scripts/rehearse_demo.py):
+  * Automated script executing two consecutive full-flow demo runs.
+  * Pass 1: Cold start verification across all endpoints, search, lightweight semantic retrieval, RAG, deflection on missing trek details, and Haversine distance calculations.
+  * Pass 2: Warm cache verification validating sub-2ms latency, zero token consumption, cache metrics, and feedback logging.
+- Git Tag:
+  * Create release tag 'final'.
+
+2. FILES CREATED & MODIFIED
+--------------------------------------------------------------------------------
+- docs/interview.md (Created): 60-second pitch, 10 interview Q&As, hardest problem story
+- PROGRESS.md (Created): All 14 milestones [x] CLOSED / COMPLETED
+- scripts/rehearse_demo.py (Created): Automated 2-pass demo rehearsal script
+- tests/conftest.py (Modified): Added /search/semantic route to DirectTestClient
+- day 14, day 14.md, day 14.txt (Created): Day 14 summary documentation
+
+3. VERIFICATION RESULTS
+--------------------------------------------------------------------------------
+- Demo Rehearsal: Both Pass 1 and Pass 2 passed 100% of assertions
+- Ruff Linter: All checks passed! (0 errors)
+- Pytest Suite: 35 passed in 3.23s (100% passing)
+- Git Tag: Tagged 'final'
+================================================================================

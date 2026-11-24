@@ -20,6 +20,7 @@ from app.main import (
     health,
     save_feedback,
     search_records,
+    semantic_search,
 )
 
 
@@ -64,6 +65,11 @@ class DirectTestClient:
         elif path == "/search":
             q = query_params.get("q", "")
             return MockResponse(200, search_records(q=q))
+
+        elif path == "/search/semantic":
+            q = query_params.get("q", "")
+            top_k = int(query_params.get("top_k", 3))
+            return MockResponse(200, semantic_search(q=q, top_k=top_k))
 
         elif path == "/feedback":
             limit = int(query_params.get("limit", 50))
